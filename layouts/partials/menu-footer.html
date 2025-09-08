@@ -13,17 +13,20 @@
     <br>
     <b>Last Updated</b><br>
     <i>
-        <span id="lastUpdated" style="color:orange;"></span>
+         <!-- <span id="lastUpdated" style="color:orange;"></span> -->
+        <span style="color:orange;">{{ .Site.Lastmod.Format "02-01-2006 3:04 PM" }}</span>
     </i>
 
+    <!-- Previous JavaScript implementation (shows current browser date)
     <script>
-        // Lấy ngày hiện tại
+        // Lấy ngày hiện tại [Rìa lý =)))]
         const today = new Date();
         // Định dạng dd-mm-yyyy
         const formattedDate = today.toLocaleDateString('en-GB');
         // Gán vào thẻ span
         document.getElementById('lastUpdated').textContent = formattedDate;
     </script>
+    -->
 </left>
 <left>
     <br>

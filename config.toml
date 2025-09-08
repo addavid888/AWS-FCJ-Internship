@@ -2,6 +2,9 @@ baseURL = "https://addavid888.github.io/AWS-FCJ-Internship/"
 relativeURLs = true
 canonifyURLs = true
 
+# Enable Git info for last modified dates
+enableGitInfo = true
+
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
