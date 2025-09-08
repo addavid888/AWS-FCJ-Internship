@@ -5,12 +5,16 @@ weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
+
+<!-- {{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+{{% /notice %}} -->
+
+{{% notice note %}}
+The content will be updated later.
 {{% /notice %}}
 
-
-### Week 1 Objectives:
+<!-- ### Week 1 Objectives:
 
 * Connect and get acquainted with members of First Cloud Journey.
 * Understand basic AWS services, how to use the console & CLI.
@@ -27,10 +31,10 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
+* Understood what AWS is and mastered the basic service groups:
   * Compute
   * Storage
-  * Networking 
+  * Networking
   * Database
   * ...
 
@@ -54,4 +58,4 @@ pre: " <b> 1.1. </b> "
   * ...
 
 * Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* ... -->
