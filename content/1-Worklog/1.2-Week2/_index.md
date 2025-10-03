@@ -5,53 +5,66 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Deepen understanding of AWS **networking fundamentals** (VPC, Subnets, Route Tables, IGW).  
+- Learn how to design and configure a **custom VPC** with both public and private subnets.  
+- Practice managing connectivity: set up **route entries**, attach an **Internet Gateway**, and associate **Elastic IPs**.  
+- Explore **Elastic Network Interfaces (ENI)** and **VPC Endpoints** to connect securely to AWS services.  
+- Strengthen skills in combining **AWS Management Console** and **AWS CLI** for parallel resource management.  
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                                                                  | On-site? | Start Date | Completion Date | Reference Material |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- | --------------- | ------------------ |
+| 1   | - Review internship rules & AWS account setup basics <br> - Learn about **AWS global infrastructure** (Regions, Availability Zones, Edge Locations)                                                   | ✅       | 09/15/2025 |                 |                    |
+| 2   | - Introduction to **Amazon VPC** and why networking is essential in AWS <br> - Understand CIDR blocks and IPv4 vs IPv6 <br> - Create a simple VPC with a default subnet                               |          | 09/16/2025 |                 |                    |
+| 3   | - Learn about **Subnets** (Public vs Private) <br> - Reserved IPs in subnets <br> - Practice creating multiple subnets in different Availability Zones                                                |          | 09/17/2025 |                 |                    |
+| 4   | - Study **Route Tables**: default vs custom <br> - Configure routes for intra-VPC communication <br> - Add route entry to allow internet access (0.0.0.0/0 → IGW)                                     |          | 09/18/2025 |                 |                    |
+| 5   | - Learn about **Internet Gateway (IGW)** and how it connects VPCs to the internet <br> - Explore **Elastic IPs (EIP)** and billing considerations <br> - Practice attaching an EIP to an EC2 instance |          | 09/19/2025 |                 |                    |
+| 6   | - Understand **Elastic Network Interfaces (ENI)** and their portability <br> - Learn about **VPC Endpoints** (Interface vs Gateway) <br> - Explore real-world use cases for private vs public traffic |          | 09/20/2025 |                 |                    |
 
-### Week 2 Achievements:
+### Week 2 Achievements
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Understood AWS Networking Services and their role in cloud infrastructure:
 
-* Successfully created and configured an AWS Free Tier account.
+  - Amazon VPC (Virtual Private Cloud)
+  - Subnets (Public & Private)
+  - Route Tables
+  - Internet Gateway (IGW)
+  - Elastic Network Interface (ENI)
+  - Elastic IP (EIP)
+  - VPC Endpoints (Interface & Gateway)
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Learned how to create and configure a VPC:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Defined CIDR ranges (`10.10.0.0/16` as VPC, `10.10.x.0/24` as subnets).
+  - Distinguished between _public subnets_ (with IGW routes) and _private subnets_.
+  - Understood subnet IP reservation (network, broadcast, router, DNS, future use).
 
-* Used AWS CLI to perform basic operations such as:
+- Practiced working with Route Tables:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - Identified the default route table and its role in intra-VPC communication.
+  - Created and modified custom route tables.
+  - Added route entries (e.g., `0.0.0.0/0 → IGW`) to allow public subnet internet access.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Explored Elastic Network Interface (ENI) and Elastic IP (EIP):
+
+  - Understood that ENI can be moved across EC2 instances while retaining IP and MAC.
+  - Associated static Elastic IP with ENI for internet reachability.
+  - Learned about AWS charging for unused EIPs to avoid waste.
+
+- Gained knowledge about Internet Gateway (IGW):
+
+  - Role as a horizontally scalable AWS-managed gateway to the internet.
+  - Steps: Create IGW → Attach to VPC → Add route in Route Table → Associate with Public Subnet.
+  - Understood the simplified approach compared to traditional network appliances.
+
+- Analyzed VPC Topology using diagrams:
+
+  - Identified relationship between VPCs, Availability Zones, and subnets.
+  - Traced EC2 connectivity through ENI, Route Table, and IGW.
+  - Differentiated how private vs. public subnets interact with external traffic.
+
+- Acquired a clear mental model of how AWS networking components fit together to support real-world scenarios (public web servers, private databases, hybrid connectivity, etc.).

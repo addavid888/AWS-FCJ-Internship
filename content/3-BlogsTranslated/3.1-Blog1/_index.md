@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
+[Click here to read the orignal post](https://aws.amazon.com/vi/blogs/compute/dynamically-routing-requests-with-amazon-api-gateway-routing-rules/)
+
 _by Anton Aleksandrov and Giedrius Praspaliauskas on 03 JUN 2025_
 
 Effective API management and routing capabilities are crucial for organizations managing complex application architectures. Whether you’re a technology company rolling out new API versions to millions of users, or a financial services organization conducting A/B tests to optimize customer experiences, the ability to route API traffic dynamically and efficiently is essential.
