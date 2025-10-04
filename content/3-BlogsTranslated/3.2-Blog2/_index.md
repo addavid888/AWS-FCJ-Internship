@@ -6,6 +6,9 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
+[Click here to read the orignal post](https://aws.amazon.com/vi/blogs/devops/introducing-an-agentic-coding-experience-in-visual-studio-and-jetbrains-ides/)
+
+
 *by Artur Rodrigues and Neeraj Handa on 05 JUN 2025*
 
 Developers spend countless hours on repetitive tasks like debugging code, writing unit tests, and validating build processes – time that could be better spent on innovation and problem-solving. To address these challenges, Amazon Q Developer has expanded its intelligent coding assistant capabilities to Visual Studio and JetBrains Integrated development environments (IDEs). This new agentic experience works proactively on your behalf, automatically analyzing your workspace, generating code fixes, and executing commands to streamline your development workflow.

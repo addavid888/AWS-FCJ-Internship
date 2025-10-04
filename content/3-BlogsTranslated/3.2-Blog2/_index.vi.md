@@ -6,6 +6,9 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
+[Xem bài viết gốc tại đây](https://aws.amazon.com/vi/blogs/devops/introducing-an-agentic-coding-experience-in-visual-studio-and-jetbrains-ides/)
+
+
 *bởi Artur Rodrigues và Neeraj Handa, ngày 05 THÁNG 6 2025*
 
 Các lập trình viên dành vô số giờ cho các công việc lặp đi lặp lại như debug code, viết unit tests, và xác thực quy trình build – khoảng thời gian lẽ ra có thể được dùng tốt hơn cho đổi mới và giải quyết vấn đề. Để giải quyết những thách thức này, Amazon Q Developer đã mở rộng khả năng trợ lý lập trình thông minh của mình đến Visual Studio và JetBrains Integrated Development Environments (IDEs). Trải nghiệm agentic mới này hoạt động chủ động thay mặt bạn, tự động phân tích workspace của bạn, sinh code fixes, và thực thi các commands để tối ưu hóa quy trình phát triển của bạn.

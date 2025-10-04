@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
+[Xem bài viết gốc tại đây](https://aws.amazon.com/vi/blogs/compute/dynamically-routing-requests-with-amazon-api-gateway-routing-rules/)
+
 *bởi Anton Aleksandrov và Giedrius Praspaliauskas vào 3 THÁNG 6 2025*
 
 Quản lý API hiệu quả và khả năng định tuyến là yếu tố then chốt đối với các tổ chức vận hành hệ thống ứng dụng phức tạp. Dù bạn là công ty công nghệ triển khai các phiên bản API mới cho hàng triệu người dùng, hay tổ chức tài chính chạy thử nghiệm A/B để tối ưu trải nghiệm khách hàng, thì khả năng định tuyến lưu lượng API một cách động và hiệu quả là vô cùng quan trọng.

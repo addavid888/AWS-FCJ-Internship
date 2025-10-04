@@ -6,51 +6,66 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Week 3 Objectives:
+### Week 3 Objectives
 
-- Connect and get acquainted with members of First Cloud Journey.
-- Understand basic AWS services, how to use the console & CLI.
+- Understand how **Amazon EC2** instances operate within AWS infrastructure.
+- Learn how to configure and launch EC2 instances using **AMI**, **Instance Types**, and **Key Pairs**.
+- Explore the relationship between **EC2**, **EBS volumes**, and **Instance Store**.
+- Practice **snapshot creation**, **volume attachment**, and **backup strategies**.
+- Learn how to automate EC2 setup using **User Data** and retrieve **Metadata** for instance configuration.
+- Gain basic knowledge of **EFS** and **FSx** for scalable and shared file storage.
 
-### Tasks to be carried out this week:
+---
 
-| Day | Task                                                                                                                                                                                                              | On-site? | Start Date | Completion Date | Reference Material                                                                                                                                                                                   |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | - Read and take notes on internship unit rules and regulations <br> - Create a new AWS account and set up billing information                                                                                     |          | 09/22/2025 | 09/08/2025      |
-| 2   | - Get acquainted with FCJ members <br> - Read and take notes on internship unit rules and regulations <br> - Watch Module 01-0123 lectures and complete labs <br> - Clean up resources                            | ✅       | 09/23/2025 | 09/09/2025      | <https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i> <br> <https://000001.awsstudygroup.com> <br> <https://000007.awsstudygroup.com/> <br> <https://000009.awsstudygroup.com/> |
-| 3   | - Watch Module 01-0456 lectures and complete labs <br> - Clean up resources <br> - Learn about AWS and its service types: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database |          | 09/24/2025 | 09/10/2025      | <https://cloudjourney.awsstudygroup.com/>                                                                                                                                                            |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br>&emsp; + How to use AWS CLI             |          | 09/25/2025 | 09/11/2025      | <https://cloudjourney.awsstudygroup.com/>                                                                                                                                                            |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP                                                               |          | 09/26/2025 | 09/12/2025      | <https://cloudjourney.awsstudygroup.com/>                                                                                                                                                            |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                                |          | 09/27/2025 | 09/13/2025      | <https://cloudjourney.awsstudygroup.com/>                                                                                                                                                            |
+### Tasks to be carried out this week
 
-### Week 3 Achievements:
+| Day | Task                                                                                                                                                                                                                                                     | On-site? | Date       |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Introduction to **Amazon EC2** <br> - Understand how virtualization works: **Hardware Node**, **Hypervisor**, and **EC2 Instance** layers <br> - Explore **Instance Types** and their effects on CPU, Memory, and Network performance                  |          | 09/22/2025 |
+| 2   | - Learn about **AMI (Amazon Machine Image)**: how to select and launch EC2 instances <br> - Understand **root volume mapping** and custom AMI creation <br> - Study EC2 **pricing models** (On-demand, Reserved, Spot, Savings Plan)                     | ✅       | 09/23/2025 |
+| 3   | - Study **Instance Store**: NVMe-based high-performance ephemeral storage <br> - Compare with **EBS Volumes** and discuss persistence, durability, and replication <br> - Practice launching instances with Instance Store and EBS                       |          | 09/24/2025 |
+| 4   | - Learn **EBS (Elastic Block Store)** architecture and how it connects to EC2 via EBS Network <br> - Explore **EBS Volume types** (SSD, HDD) and durability (99.999%) <br> - Perform EBS **snapshot** and **restore** operations                         |          | 09/25/2025 |
+| 5   | - Understand **User Data** and **Metadata** <br> - Write simple user-data scripts for automatic package installation and setup <br> - Retrieve EC2 metadata (IP, hostname, security groups) using `http://169.254.169.254/latest/meta-data/`             |          | 09/26/2025 |
+| 6   | - Explore advanced storage services: **EFS (Elastic File System)** and **FSx** <br> - Learn use cases for **shared file access** and **high-performance workloads** <br> - Introduction to **AWS Application Migration Service** for VM migration to AWS |          | 09/27/2025 |
 
-- Understood what AWS is and mastered the basic service groups:
+---
 
-  - Compute
-  - Storage
-  - Networking
-  - Database
-  - ...
+### Week 3 Achievements
 
-- Successfully created and configured an AWS Free Tier account.
+- **Understood the EC2 architecture**:
 
-- Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - EC2 instances run on a **hypervisor layer** (Nitro/KVM) atop physical hardware nodes.
+  - Each instance uses an **AMI template** to define its OS and configuration.
+  - Gained insight into how instance types define compute, memory, and networking capacity:contentReference[oaicite:1]{index=1}.
 
-- Installed and configured AWS CLI on the computer, including:
+- **Learned about Instance Store vs EBS**:
 
-  - Access Key
-  - Secret Key
-  - Default Region
-  - ...
+  - Instance Store provides **temporary, ultra-fast NVMe storage** tied to the hardware node.
+  - EBS provides **persistent block storage** replicated across storage nodes within an AZ for reliability.
+  - Understood use cases: instance store for high IOPS workloads, EBS for durability:contentReference[oaicite:2]{index=2}.
 
-- Used AWS CLI to perform basic operations such as:
+- **Explored EBS architecture and operations**:
 
-  - Check account & configuration information
-  - Retrieve the list of regions
-  - View EC2 service
-  - Create and manage key pairs
-  - Check information about running services
-  - ...
+  - Studied how EBS connects via a **dedicated EBS Network** within an Availability Zone.
+  - Learned about **EBS volume types** (SSD, HDD), **EBS-optimized instances**, and **multi-attach** support.
+  - Practiced creating, attaching, detaching, and taking **snapshots** for backup.
 
-- Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-- ...
+- **Configured EC2 instances and Key Pairs**:
+
+  - Generated SSH key pairs for secure access.
+  - Connected to EC2 via public subnet using SSH.
+  - Understood key pair encryption and its link to private/public subnets.
+
+- **Used User Data and Metadata for automation**:
+
+  - Wrote bash scripts for boot-time installation of packages and environment setup.
+  - Accessed metadata endpoints to retrieve configuration data (IP, hostname, SGs).
+  - Learned to automate EC2 provisioning without manual SSH setup.
+
+- **Gained familiarity with higher-level storage services**:
+
+  - Overviewed **EFS** for shared POSIX file systems across instances.
+  - Learned about **FSx** for Windows-based or high-performance workloads.
+  - Explored **Application Migration Service** as a tool for moving workloads to AWS.
+
+- Developed a clear understanding of **how compute and storage layers interact** inside an AWS Availability Zone, and how these form the foundation for higher-level services.

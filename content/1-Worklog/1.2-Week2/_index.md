@@ -8,22 +8,22 @@ pre: " <b> 1.2. </b> "
 
 ### Week 2 Objectives:
 
-- Deepen understanding of AWS **networking fundamentals** (VPC, Subnets, Route Tables, IGW).  
-- Learn how to design and configure a **custom VPC** with both public and private subnets.  
-- Practice managing connectivity: set up **route entries**, attach an **Internet Gateway**, and associate **Elastic IPs**.  
-- Explore **Elastic Network Interfaces (ENI)** and **VPC Endpoints** to connect securely to AWS services.  
-- Strengthen skills in combining **AWS Management Console** and **AWS CLI** for parallel resource management.  
+- Deepen understanding of AWS **networking fundamentals** (VPC, Subnets, Route Tables, IGW).
+- Learn how to design and configure a **custom VPC** with both public and private subnets.
+- Practice managing connectivity: set up **route entries**, attach an **Internet Gateway**, and associate **Elastic IPs**.
+- Explore **Elastic Network Interfaces (ENI)** and **VPC Endpoints** to connect securely to AWS services.
+- Strengthen skills in combining **AWS Management Console** and **AWS CLI** for parallel resource management.
 
 ### Tasks to be carried out this week:
 
-| Day | Task                                                                                                                                                                                                  | On-site? | Start Date | Completion Date | Reference Material |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- | --------------- | ------------------ |
-| 1   | - Review internship rules & AWS account setup basics <br> - Learn about **AWS global infrastructure** (Regions, Availability Zones, Edge Locations)                                                   | ✅       | 09/15/2025 |                 |                    |
-| 2   | - Introduction to **Amazon VPC** and why networking is essential in AWS <br> - Understand CIDR blocks and IPv4 vs IPv6 <br> - Create a simple VPC with a default subnet                               |          | 09/16/2025 |                 |                    |
-| 3   | - Learn about **Subnets** (Public vs Private) <br> - Reserved IPs in subnets <br> - Practice creating multiple subnets in different Availability Zones                                                |          | 09/17/2025 |                 |                    |
-| 4   | - Study **Route Tables**: default vs custom <br> - Configure routes for intra-VPC communication <br> - Add route entry to allow internet access (0.0.0.0/0 → IGW)                                     |          | 09/18/2025 |                 |                    |
-| 5   | - Learn about **Internet Gateway (IGW)** and how it connects VPCs to the internet <br> - Explore **Elastic IPs (EIP)** and billing considerations <br> - Practice attaching an EIP to an EC2 instance |          | 09/19/2025 |                 |                    |
-| 6   | - Understand **Elastic Network Interfaces (ENI)** and their portability <br> - Learn about **VPC Endpoints** (Interface vs Gateway) <br> - Explore real-world use cases for private vs public traffic |          | 09/20/2025 |                 |                    |
+| Day | Task                                                                                                                                                                                                  | On-site? | Date       |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Review internship rules & AWS account setup basics <br> - Learn about **AWS global infrastructure** (Regions, Availability Zones, Edge Locations)                                                   | ✅       | 09/15/2025 |
+| 2   | - Introduction to **Amazon VPC** and why networking is essential in AWS <br> - Understand CIDR blocks and IPv4 vs IPv6 <br> - Create a simple VPC with a default subnet                               |          | 09/16/2025 |
+| 3   | - Learn about **Subnets** (Public vs Private) <br> - Reserved IPs in subnets <br> - Practice creating multiple subnets in different Availability Zones                                                |          | 09/17/2025 |
+| 4   | - Study **Route Tables**: default vs custom <br> - Configure routes for intra-VPC communication <br> - Add route entry to allow internet access (0.0.0.0/0 → IGW)                                     |          | 09/18/2025 |
+| 5   | - Learn about **Internet Gateway (IGW)** and how it connects VPCs to the internet <br> - Explore **Elastic IPs (EIP)** and billing considerations <br> - Practice attaching an EIP to an EC2 instance |          | 09/19/2025 |
+| 6   | - Understand **Elastic Network Interfaces (ENI)** and their portability <br> - Learn about **VPC Endpoints** (Interface vs Gateway) <br> - Explore real-world use cases for private vs public traffic |          | 09/20/2025 |
 
 ### Week 2 Achievements
 

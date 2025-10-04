@@ -5,55 +5,67 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 3
 
-### Mục tiêu tuần 3:
+- Hiểu cách hoạt động của các **Amazon EC2** instance trong hạ tầng AWS.
+- Học cách cấu hình và khởi chạy EC2 instance sử dụng **AMI**, **Instance Types**, và **Key Pairs**.
+- Khám phá mối quan hệ giữa **EC2**, **EBS volumes**, và **Instance Store**.
+- Thực hành **tạo snapshot**, **gắn volume**, và **chiến lược backup**.
+- Học cách tự động hóa thiết lập EC2 sử dụng **User Data** và truy xuất **Metadata** để cấu hình instance.
+- Có kiến thức cơ bản về **EFS** và **FSx** cho lưu trữ file có thể mở rộng và chia sẻ.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc cần thực hiện trong tuần này
 
+| Ngày | Công việc                                                                                                                                                                                                                                              | On-site? | Ngày       |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| 1    | - Giới thiệu về **Amazon EC2** <br> - Hiểu cách hoạt động của ảo hóa: các lớp **Hardware Node**, **Hypervisor**, và **EC2 Instance** <br> - Khám phá **Instance Types** và tác động của chúng đến hiệu năng CPU, Memory, và Network                    |          | 09/22/2025 |
+| 2    | - Tìm hiểu về **AMI (Amazon Machine Image)**: cách chọn và khởi chạy EC2 instance <br> - Hiểu **root volume mapping** và tạo AMI tùy chỉnh <br> - Nghiên cứu **mô hình giá** EC2 (On-demand, Reserved, Spot, Savings Plan)                             | ✅       | 09/23/2025 |
+| 3    | - Nghiên cứu **Instance Store**: lưu trữ tạm thời hiệu năng cao dựa trên NVMe <br> - So sánh với **EBS Volumes** và thảo luận về tính bền vững, độ tin cậy, và sao chép <br> - Thực hành khởi chạy instance với Instance Store và EBS                  |          | 09/24/2025 |
+| 4    | - Tìm hiểu kiến trúc **EBS (Elastic Block Store)** và cách kết nối với EC2 qua EBS Network <br> - Khám phá **các loại EBS Volume** (SSD, HDD) và độ bền (99.999%) <br> - Thực hiện các thao tác **snapshot** và **restore** EBS                        |          | 09/25/2025 |
+| 5    | - Hiểu về **User Data** và **Metadata** <br> - Viết script user-data đơn giản để tự động cài đặt package và thiết lập <br> - Truy xuất metadata EC2 (IP, hostname, security groups) sử dụng `http://169.254.169.254/latest/meta-data/`                 |          | 09/26/2025 |
+| 6    | - Khám phá các dịch vụ lưu trữ nâng cao: **EFS (Elastic File System)** và **FSx** <br> - Tìm hiểu use case cho **truy cập file chia sẻ** và **workload hiệu năng cao** <br> - Giới thiệu **AWS Application Migration Service** để di chuyển VM lên AWS |          | 09/27/2025 |
 
-### Kết quả đạt được tuần 3:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Kết quả đạt được Tuần 3
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Hiểu được kiến trúc EC2**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - EC2 instance chạy trên **lớp hypervisor** (Nitro/KVM) trên các node phần cứng vật lý.
+  - Mỗi instance sử dụng **template AMI** để định nghĩa OS và cấu hình.
+  - Có cái nhìn sâu sắc về cách instance types định nghĩa năng lực tính toán, bộ nhớ, và mạng.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Tìm hiểu về Instance Store vs EBS**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Instance Store cung cấp **lưu trữ NVMe tạm thời, siêu nhanh** gắn với node phần cứng.
+  - EBS cung cấp **lưu trữ block bền vững** được sao chép trên các storage node trong một AZ để đảm bảo tin cậy.
+  - Hiểu các use case: instance store cho workload IOPS cao, EBS cho độ bền.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- **Khám phá kiến trúc và vận hành EBS**:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+  - Nghiên cứu cách EBS kết nối qua **EBS Network chuyên dụng** trong một Availability Zone.
+  - Tìm hiểu về **các loại EBS volume** (SSD, HDD), **EBS-optimized instance**, và hỗ trợ **multi-attach**.
+  - Thực hành tạo, gắn, tháo, và tạo **snapshot** để backup.
 
+- **Cấu hình EC2 instance và Key Pairs**:
 
+  - Tạo SSH key pair để truy cập an toàn.
+  - Kết nối đến EC2 qua public subnet sử dụng SSH.
+  - Hiểu về mã hóa key pair và liên kết với private/public subnet.
+
+- **Sử dụng User Data và Metadata để tự động hóa**:
+
+  - Viết bash script để cài đặt package và thiết lập môi trường khi khởi động.
+  - Truy cập metadata endpoint để lấy dữ liệu cấu hình (IP, hostname, SG).
+  - Học cách tự động hóa provisioning EC2 mà không cần thiết lập SSH thủ công.
+
+- **Làm quen với các dịch vụ lưu trữ cấp cao hơn**:
+
+  - Tổng quan về **EFS** cho hệ thống file POSIX chia sẻ giữa các instance.
+  - Tìm hiểu về **FSx** cho workload dựa trên Windows hoặc hiệu năng cao.
+  - Khám phá **Application Migration Service** như công cụ di chuyển workload lên AWS.
+
+- Phát triển hiểu biết rõ ràng về **cách các lớp compute và storage tương tác** bên trong AWS Availability Zone, và cách chúng tạo nền tảng cho các dịch vụ cấp cao hơn.

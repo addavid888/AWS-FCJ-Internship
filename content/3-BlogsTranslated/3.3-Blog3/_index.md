@@ -6,6 +6,9 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
+[Click here to read the orignal post](https://aws.amazon.com/vi/blogs/apn/location-intelligence-for-sustainable-transportation-on-aws/)
+
+
 *by Mahesh Geeniga, Lev Levine, and Nicolas Legros on 14 MAY 2025*
 
 *By Mahesh Geeniga, Senior Partner Solutions Architect – AWS, Lev Levine, Principal Partner Development Manager – AWS, Nicolas Legros, Director Product Marketing – HERE Technologies*
