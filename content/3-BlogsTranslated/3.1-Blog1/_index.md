@@ -20,7 +20,7 @@ Many organizations require dynamic API routing capabilities to support their evo
 
 With this new launch, you can implement dynamic routing logic with a simple declarative configuration within the custom domain name settings. The new routing rule mechanism allows you to make routing decisions based on HTTP headers, base paths, or a combination of both. Developers are no longer required to create new or alter existing paths to smoothly transition between API versions, they can simply specify the desired value in the request HTTP header. Among other possibilities, you can implement cell-based architecture routing, A/B testing, or dynamic backend selection based on [hostname](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-custom-domains.html#wildcard-custom-domain-names), tenant ID, accepted response media type, or cookie value. By implementing routing logic directly within the API Gateway, you can eliminate proxy layers and complex URL structures while maintaining fine-grained control over your API traffic. This new feature seamlessly integrates with existing API Gateway capabilities and supports both public and private REST APIs. The following diagram shows how you can use routing rules for header and base-path based routing. This example uses a single level resource /products to show path matching, however depending on your use-case you could also use multi-level paths like **/products/items**.
 
-![image-1](images/3-BlogsTranslated/3.1-/image-1.png)
+![image-1](images/3-BlogsTranslated/3.1-/image-1.jpg)
 
 Figure 1. Using routing rules for header and base-path based routing
 
@@ -122,7 +122,7 @@ For scenarios like API versioning, you can create rules that evaluate headers su
 
 Header-based routing also simplifies A/B testing by allowing you to define client cohorts based on custom headers, allowing controlled experiments with different configurations. You can create rules that check for a custom header like **“x-test-group”** to route specific users to different API implementations. The priority system ensures predictable routing behavior – when multiple rules match a request, the rule with the lowest priority number (highest precedence) determines the routing. Combining header and path conditions within a single rule enables complex routing scenarios such as version-specific routing for specific API resources instead of the entire API, as illustrated in the following diagram.
 
-![image-2](images/3-BlogsTranslated/3.1-/image-2-1.png)
+![image-2](images/3-BlogsTranslated/3.1-/image-2-1.jpg)
 
 Figure 2. A routing configuration with two header and one path conditions in API Gateway Console.
 

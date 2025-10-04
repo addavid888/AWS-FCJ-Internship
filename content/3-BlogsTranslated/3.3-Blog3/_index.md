@@ -24,7 +24,9 @@ The [HERE Tour Planning API](https://aws.amazon.com/marketplace/pp/prodview-izb3
 
 Figure 1 shows how HERE Fleet Optimization addresses various fleet management problems.
 
-Figure 1: Typical architecture utilizing HERE Fleet Optimization
+![image-1](images/3-BlogsTranslated/3.3-/image-1.png)
+
+*Figure 1: Typical architecture utilizing HERE Fleet Optimization*
 
 **Emissions-Focused Routing based on Real-Time Intelligence**
 
@@ -54,7 +56,7 @@ HERE Destination Weather is a dynamic (live) service delivering granular, up-to-
 
 **Measurable Customer Outcomes**
 
-The implementation of HERE’s solutions has demonstrated significant environmental and business value, with the extent of benefits varying based on a company’s baseline. For organizations new to computer-based route optimization, these technologies can achieve up to 20% reduction in route times, fuel costs, and carbon footprint through efficient route planning and delivery optimization. Companies already using basic digitized routing solutions typically see gains of 5-8%, potentially reaching 10%, when upgrading to more advanced systems.
+The implementation of HERE’s solutions has demonstrated significant environmental and business value, with the extent of benefits varying based on a company’s baseline. For organizations new to computer-based route optimization, these technologies can achieve up to [20% reduction in route times](https://aws.amazon.com/partners/success/kovix-here-technologies/), fuel costs, and carbon footprint through efficient route planning and delivery optimization. Companies already using basic digitized routing solutions typically see gains of 5-8%, potentially reaching 10%, when upgrading to more advanced systems.
 
 **Conclusion**
 
