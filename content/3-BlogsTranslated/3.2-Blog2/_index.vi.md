@@ -37,9 +37,13 @@ Hãy cùng đi qua hai use case. Trong ví dụ của chúng tôi, chúng tôi s
 
 Project **Bookstore.Domain** chứa các domain objects như **Book** và **ShoppingCart**.
 
+![image-1](images/3-BlogsTranslated/3.2-/Figure1-QDevVSAgentic.jpg)
+
 Hình 1: Domain objects trong Bookstore.Domain
 
 Chúng tôi có một project riêng tên là Bookstore.Domain.Tests chứa các tests cho lớp Book.
+
+![image-2](images/3-BlogsTranslated/3.2-/Figure2-QDevVSAgentic.jpg)
 
 Figure 2: Tests for Book class
 
@@ -49,15 +53,25 @@ Theo mặc định, trải nghiệm agentic được bật. Nếu bạn đang tr
 
 Sau đó, chúng tôi hỏi Q Developer: *“Can you create a test for @ShoppingCart.cs? Look at existing test and use the same libraries.”* Đầu tiên, hãy chú ý rằng chúng tôi đưa ra một command thay vì chỉ đặt câu hỏi. Thứ hai, chúng tôi tham chiếu rõ ràng file ShoppingCart.cs để cung cấp context phù hợp cho Q Developer. Trong hình tiếp theo, bạn có thể thấy rằng Q Developer đang hành động thay mặt chúng tôi. Trong chế độ agentic coding, Q Developer có thể thực hiện hành động và chạy commands. Trong ví dụ của chúng tôi, nó đang đọc file, ghi vào file, và chạy commands với sự cho phép của bạn.
 
+![image-3](images/3-BlogsTranslated/3.2-/Figure3-QDevVSAgentic-537x1024.jpg)
+
 Hình 3: Prompt để tạo các bài test mới
 
 Bằng cách dùng commands, Q Developer có thể phân tích cấu trúc solution của chúng tôi, hiểu rằng chúng tôi có một project tên là **Bookstore.Domain.Tests**, và tạo một file mới chứa unit tests cho **ShoppingCart**.
 
+![image-4](images/3-BlogsTranslated/3.2-/Figure4-QDevVSAgentic.jpg)
+
+Figure 4: Tóm tắt về các test case
+
 Ta có thể thấy rằng đã có một file mới tên là **ShoppingCartTests** trong project **Bookstore.Domain.Tests**, phù hợp với chiến lược tạo test hiện có.
+
+![image-5](images/3-BlogsTranslated/3.2-/Figure5-QDevVSAgentic.jpg)
 
 Hình 5: File mới với test cases được sinh ra
 
 Trong Visual Studio, chúng tôi bây giờ có thể chạy các unit tests và xác nhận rằng chúng pass.
+
+![image-6](images/3-BlogsTranslated/3.2-/Figure6-QDevVSAgentic.jpg)
 
 Hình 6: Chạy các bài test mới thành công
 
@@ -67,19 +81,27 @@ Trong ví dụ tiếp theo, chúng tôi sẽ minh họa sức mạnh của trả
 
 Trong ví dụ, chúng tôi cố ý viết sai chính tả một method trong interface **IShoppingCartRepository**. Method **AddAsync** đã bị viết sai thành **AddAsyn**.
 
+![image-7](images/3-BlogsTranslated/3.2-/Figure7-QDevVSAgentic-1024x414.jpg)
+
 Hình 7: Lỗi chính tả trong tên method
 
 Khi chúng tôi cố gắng build project **Bookstore.Domain**, chúng tôi nhận được build error như mong đợi. Hãy nhờ Q Developer sửa lỗi này. Nếu không có agentic coding experience, chúng tôi sẽ phải copy text của build error vào cửa sổ chat và yêu cầu Q Developer đưa ra khuyến nghị. Sau đó chúng tôi sẽ phải làm theo khuyến nghị bằng cách chỉnh sửa thủ công và thử build lại. Đây chỉ là một trong nhiều ví dụ về sức mạnh của agentic chat, cái có thể chạy commands và dùng output của commands để làm giàu context cho prompt nhằm thực hiện hành động.
 
 Với agentic coding experience, chúng tôi chỉ cần hỏi Q Developer: *“Can you fix the error I am getting while building the solution? Please build and check it.”* Trong hình dưới đây, bạn sẽ thấy Q Developer chạy các lệnh build .NET để lấy build errors và đọc các file liên quan.
 
+![image-8](images/3-BlogsTranslated/3.2-/Figure8-QDevVSAgentic.jpg)
+
 Hình 8: Amazon Q Developer đang tạo ra giải pháp
 
 Trong hình tiếp theo, Amazon Q Developer cung cấp một bản tóm tắt của lỗi, các hành động nó đã thực hiện để build, và thậm chí giúp tôi với một số khuyến nghị để sửa các warnings mà nó gặp trong khi chạy build.
 
+![image-9](images/3-BlogsTranslated/3.2-/Figure9-QDevVSAgentic.jpg)
+
 Hình 9: Sửa lỗi chính tả
 
 In the following image, Amazon Q Developer provides a summary of the error, the actions it took to build it. It even helps me with some recommendations to fix the warnings it got while running the build.
+
+![image-10](images/3-BlogsTranslated/3.2-/Figure10-QDevVSAgentic.jpg)
 
 Hình 10: Tóm tắt các thay đổi và gợi ý
 
