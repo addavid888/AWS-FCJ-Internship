@@ -122,7 +122,7 @@ For scenarios like API versioning, you can create rules that evaluate headers su
 
 Header-based routing also simplifies A/B testing by allowing you to define client cohorts based on custom headers, allowing controlled experiments with different configurations. You can create rules that check for a custom header like **“x-test-group”** to route specific users to different API implementations. The priority system ensures predictable routing behavior – when multiple rules match a request, the rule with the lowest priority number (highest precedence) determines the routing. Combining header and path conditions within a single rule enables complex routing scenarios such as version-specific routing for specific API resources instead of the entire API, as illustrated in the following diagram.
 
-![image-2](images/3-BlogsTranslated/3.1-/image-2-1.jpg)
+![image-2](/images/3-BlogsTranslated/3.1/image-2-1.jpg)
 
 Figure 2. A routing configuration with two header and one path conditions in API Gateway Console.
 
