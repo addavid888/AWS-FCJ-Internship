@@ -26,7 +26,7 @@ HERE Technologies, tiên phong trong lĩnh vực location intelligence, dựa v�
 
 Hình 1 cho thấy cách HERE Fleet Optimization giải quyết nhiều vấn đề quản lý đội xe khác nhau.
 
-![image-1](images/3-BlogsTranslated/3.3-/image-1.png)
+![image-1](/images/3-BlogsTranslated/3.3/image-1.png)
 
 *Hình 1: Kiến trúc điển hình sử dụng HERE Fleet Optimization*
 

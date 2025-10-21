@@ -27,7 +27,7 @@ The [HERE Tour Planning API](https://aws.amazon.com/marketplace/pp/prodview-izb3
 
 Figure 1 shows how HERE Fleet Optimization addresses various fleet management problems.
 
-![image-1](images/3-BlogsTranslated/3.3-/image-1.png)
+![image-1](/images/3-BlogsTranslated/3.3/image-1.png)
 
 *Figure 1: Typical architecture utilizing HERE Fleet Optimization*
 

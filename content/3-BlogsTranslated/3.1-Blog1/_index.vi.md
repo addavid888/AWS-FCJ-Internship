@@ -20,7 +20,7 @@ Nhiều tổ chức yêu cầu khả năng định tuyến API động để đ�
 
 Với Dynamic Routing Rules, bạn có thể triển khai logic định tuyến động bằng một cấu hình khai báo đơn giản trong phần cài đặt custom domain name. Cơ chế routing rule mới cho phép bạn đưa ra các quyết định định tuyến dựa trên HTTP headers, base paths, hoặc kết hợp cả hai. Các nhà phát triển không còn cần phải tạo mới hoặc thay đổi các path hiện có để chuyển đổi mượt giữa các phiên bản API, họ chỉ cần chỉ định giá trị mong muốn trong request HTTP header. Trong số các khả năng khác, bạn có thể triển khai định tuyến kiến trúc cell-based, A/B testing, hoặc lựa chọn backend động dựa trên [hostname](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-custom-domains.html#wildcard-custom-domain-names), tenant ID, accepted response media type, hoặc cookie value. Bằng cách triển khai logic định tuyến trực tiếp trong API Gateway, bạn có thể loại bỏ các proxy layers và các cấu trúc URL phức tạp trong khi vẫn duy trì quyền kiểm soát chi tiết với traffic API của bạn. Tính năng mới này tích hợp liền mạch với các khả năng hiện có của API Gateway và hỗ trợ cả REST APIs công khai và riêng tư. Sơ đồ sau cho thấy cách bạn có thể sử dụng routing rules cho định tuyến dựa trên header và base-path. Ví dụ này sử dụng một tài nguyên cấp một /products để minh họa khớp path, tuy nhiên tùy thuộc vào use-case bạn cũng có thể dùng các path nhiều cấp như /products/items. 
 
-![image-1](/images/3-BlogsTranslated/3.1/image-1.png)
+![image-1](/images/3-BlogsTranslated/3.1/image-1.jpg)
 
 Hình 1. Sử dụng routing rules cho định tuyến dựa trên header và base-path
 
@@ -125,7 +125,7 @@ Trong các kịch bản như API versioning, bạn có thể tạo rule để đ
 
 Header-based routing cũng đơn giản hóa việc A/B testing bằng cách cho phép bạn định nghĩa các nhóm client dựa trên custom headers, cho phép thực hiện thử nghiệm có kiểm soát với các cấu hình khác nhau. Bạn có thể tạo rule kiểm tra một custom header như x-test-group để định tuyến người dùng cụ thể tới các implementation API khác nhau. Hệ thống priority đảm bảo hành vi định tuyến có thể dự đoán -- khi nhiều rule khớp với một request, rule có số priority thấp nhất (tức là precedence cao nhất) sẽ quyết định định tuyến. Việc kết hợp cả header và path conditions trong một rule duy nhất cho phép các kịch bản định tuyến phức tạp, ví dụ như định tuyến theo version cụ thể cho các tài nguyên API cụ thể thay vì toàn bộ API, như minh họa trong sơ đồ sau.
 
-![image-2](images/3-BlogsTranslated/3.1-/image-2-1.png)
+![image-2](/images/3-BlogsTranslated/3.1-/image-2-1.jpg)
 
 Hình 2. Cấu hình định tuyến với hai header và một bộ path conditions trong API Gateway Console.
 
