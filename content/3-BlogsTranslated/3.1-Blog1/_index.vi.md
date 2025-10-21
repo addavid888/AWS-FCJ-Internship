@@ -125,7 +125,7 @@ Trong các kịch bản như API versioning, bạn có thể tạo rule để đ
 
 Header-based routing cũng đơn giản hóa việc A/B testing bằng cách cho phép bạn định nghĩa các nhóm client dựa trên custom headers, cho phép thực hiện thử nghiệm có kiểm soát với các cấu hình khác nhau. Bạn có thể tạo rule kiểm tra một custom header như x-test-group để định tuyến người dùng cụ thể tới các implementation API khác nhau. Hệ thống priority đảm bảo hành vi định tuyến có thể dự đoán -- khi nhiều rule khớp với một request, rule có số priority thấp nhất (tức là precedence cao nhất) sẽ quyết định định tuyến. Việc kết hợp cả header và path conditions trong một rule duy nhất cho phép các kịch bản định tuyến phức tạp, ví dụ như định tuyến theo version cụ thể cho các tài nguyên API cụ thể thay vì toàn bộ API, như minh họa trong sơ đồ sau.
 
-![image-2](/images/3-BlogsTranslated/3.1-/image-2-1.jpg)
+![image-2](/images/3-BlogsTranslated/3.1/image-2-1.jpg)
 
 Hình 2. Cấu hình định tuyến với hai header và một bộ path conditions trong API Gateway Console.
 

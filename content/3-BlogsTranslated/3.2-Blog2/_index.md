@@ -54,13 +54,13 @@ By default, the agentic experience is on. If you are in the planning phase of th
 
 Then, we ask Q Developer _“Can you create a test for @ShoppingCart.cs? Look at existing test and use the same libraries”_. First, notice that we are giving a command instead of just asking a question. Second, we are referencing the file ShoppingCart.cs explicitly to provide Q Developer the appropriate context. In the following image, you can see that Q Developer is acting on our behalf. In agentic coding mode, Q Developer can take actions and run commands. In our example, it is reading files, writing to files, and running commands with your permission.
 
-![image-3](/images/3-BlogsTranslated/3.2-/Figure3-QDevVSAgentic-537x1024.jpg)
+![image-3](/images/3-BlogsTranslated/3.2/Figure3-QDevVSAgentic-537x1024.jpg)
 
 Figure 3: Prompt to create new tests
 
 Using commands, Q Developer was able to analyze our solution structure, understand that we have a project called **Bookstore.Domain.Tests**, and create a new file containing unit tests for **ShoppingCart**.
 
-![image-4](/images/3-BlogsTranslated/3.2-/Figure4-QDevVSAgentic.jpg)
+![image-4](/images/3-BlogsTranslated/3.2/Figure4-QDevVSAgentic.jpg)
 
 Figure 4: Summary of test cases
 

@@ -64,7 +64,7 @@ Bằng cách dùng commands, Q Developer có thể phân tích cấu trúc solut
 
 ![image-4](/images/3-BlogsTranslated/3.2/Figure4-QDevVSAgentic.jpg)
 
-Figure 4: Tóm tắt về các test case
+Hình 4: Tóm tắt về các test case
 
 Ta có thể thấy rằng đã có một file mới tên là **ShoppingCartTests** trong project **Bookstore.Domain.Tests**, phù hợp với chiến lược tạo test hiện có.
 
