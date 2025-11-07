@@ -74,7 +74,7 @@ Rafilm sử dụng kiến trúc serverless mô-đun trên AWS nhằm đạt kh�
 
 | Giai đoạn | Thời lượng | Kết quả chính |
 |-------|-----------|------------------|
-| Tháng 1 | Nghiên cứu & Kiến trúc | Thiết kế AWS hoàn thiện, sơ đồ đã xong |
+| Tháng 1 | Nghiên cứu & Kiến trúc | Thiết kế kiến trúc giải pháp |
 | Tháng 2 | Phát triển lõi | Hosting Amplify, cấu hình Cognito, API Lambda, schema DynamoDB |
 | Tháng 3 | Tích hợp AI & Kiểm thử | Huấn luyện Personalize, chatbot Bedrock, triển khai hệ thống |
 | Sau ra mắt | Cải tiến liên tục | Tối ưu chi phí, tính năng mới, cải thiện UX |

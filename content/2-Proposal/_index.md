@@ -74,7 +74,7 @@ Rafilm employs a modular serverless architecture using AWS services for scalabil
 
 | Phase | Duration | Key Deliverables |
 |-------|-----------|------------------|
-| Month 1 | Research & Architecture | AWS design finalized, diagrams completed |
+| Month 1 | Research & Architecture | AWS design finalizing |
 | Month 2 | Core Development | Amplify hosting, Cognito setup, Lambda API, DynamoDB schema |
 | Month 3 | AI Integration & Testing | Personalize training, Bedrock chatbot, system deployment |
 | Post-Launch | Continuous Improvement | Cost optimization, new features, UX refinement |
