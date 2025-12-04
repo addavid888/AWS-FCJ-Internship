@@ -29,7 +29,7 @@ Bằng cách tận dụng dịch vụ Serverless của AWS, Rafilm đạt chi ph
 
 Rafilm sử dụng kiến trúc serverless mô-đun trên AWS nhằm đạt khả năng mở rộng, tích hợp và tối ưu chi phí.
 
-![sơ-đồ-kiến-trúc](/images/2-Proposal/platform_architecture.jpeg)
+![architecture-diagram](/images/2-Proposal/solution-architect-rafilm.jpg)
 
 #### Dịch vụ AWS sử dụng  
 - **AWS Amplify**: Host frontend Next.js cho việc duyệt phim, ghi nhật ký và tương tác chatbot.  
@@ -107,7 +107,6 @@ Rafilm sử dụng kiến trúc serverless mô-đun trên AWS nhằm đạt kh�
 | Chi phí huấn luyện mô hình tăng | Thấp | Trung bình | Dùng tập dữ liệu giới hạn cho thử nghiệm |
 | Độ trễ của chatbot | Trung bình | Thấp | Tối ưu loại mô hình Bedrock và kích thước phản hồi |
 | Xác thực hoặc hết hạn token | Trung bình | Thấp | Dùng JWT thời gian sống ngắn và refresh token |
-| Mất dữ liệu | Thấp | Cao | Sao lưu DynamoDB sang S3 định kỳ |
 
 ### 8. Kết quả mong đợi  
 
