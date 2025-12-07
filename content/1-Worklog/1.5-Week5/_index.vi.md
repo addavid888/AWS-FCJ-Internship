@@ -5,55 +5,58 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Mục tiêu Tuần 5
 
-### Mục tiêu tuần 5:
+- Hiểu về **Mô hình Trách nhiệm Chia sẻ** và ranh giới bảo mật nào AWS xử lý so với những gì bạn phải xử lý.
+- Học cách quản lý quyền hạn và danh tính sử dụng **AWS IAM**, bao gồm các chính sách, vai trò và nguyên tắc đặc quyền tối thiểu.
+- Khám phá **Amazon Cognito** để xác thực người dùng và cách nó tích hợp với các ứng dụng hiện đại.
+- Nghiên cứu **AWS Organizations** và **AWS Identity Center (SSO)** cho việc quản lý đa tài khoản và quản trị tập trung.
+- Học cách mã hóa hoạt động trong AWS thông qua **AWS Key Management Service (KMS)** và tại sao việc xử lý khóa đúng cách lại quan trọng.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Nhiệm vụ cần thực hiện trong tuần này
 
+| Ngày | Nhiệm vụ                                                                                                                                                                                                                   | Tại chỗ? | Ngày       |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------- |
+| 1    | - Nghiên cứu sâu về **Mô hình Trách nhiệm Chia sẻ** <br> - Hiểu về ranh giới bảo mật: bảo mật **của** AWS trên cloud vs bảo mật **trong** cloud của bạn <br> - Xem xét hậu quả thực tế của việc cấu hình sai           |           | 10/06/2025 |
+| 2    | - Học các khái niệm cốt lõi của **IAM**: Người dùng, Nhóm, Vai trò, Chính sách <br> - Thực hành viết chính sách IAM bằng JSON <br> - Khám phá ranh giới quyền hạn, đặc quyền tối thiểu và logic đánh giá chính sách  |           | 10/07/2025 |
+| 3    | - Giới thiệu về **Amazon Cognito** <br> - Hiểu về User Pools vs Identity Pools <br> - Triển khai quy trình xác thực ứng dụng cơ bản (đăng ký, đăng nhập, token)                                                        |           | 10/08/2025 |
+| 4    | - Học **AWS Organizations**: cấu trúc đa tài khoản, thiết kế OU, SCPs <br> - Khám phá **AWS Identity Center** cho truy cập tập trung và SSO                                                                              |           | 10/09/2025 |
+| 5    | - Tìm hiểu sâu về **AWS KMS** <br> - Học về CMKs, chính sách khóa, ngữ cảnh mã hóa <br> - Thực hành mã hóa/giải mã dữ liệu và hiểu về mã hóa envelope                                                                  |           | 10/10/2025 |
+| 6    | - Kết hợp tất cả khái niệm: xây dựng mô hình quản trị đa tài khoản bảo mật <br> - Tạo vai trò IAM cho truy cập ứng dụng, thực thi SCPs và mã hóa tài nguyên với KMS                                                   |           | 10/11/2025 |
 
-### Kết quả đạt được tuần 5:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Thành tựu Tuần 5
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Hiểu được Mô hình Trách nhiệm Chia sẻ**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - Phân tích chính xác ranh giới bảo mật giữa AWS và khách hàng.
+  - Xác định các điểm lỗi thông thường do hiểu sai về những ranh giới này.
+  - Học được tại sao việc cấu hình sai thường quan trọng hơn lỗi cơ sở hạ tầng.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Thành thạo nền tảng IAM**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Viết chính sách IAM và debug việc từ chối truy cập bằng logic đánh giá chính sách.
+  - Học khi nào sử dụng vai trò thay vì thông tin xác thực tồn tại lâu dài.
+  - Áp dụng nguyên tắc đặc quyền tối thiểu trên các môi trường test.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- **Triển khai xác thực hiện đại với Cognito**:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+  - Học cách Cognito xử lý danh tính người dùng, luồng OAuth và phát hành token.
+  - Nghiên cứu các mẫu tích hợp cho ứng dụng web và mobile.
+  - Hiểu được các lỗ hổng bảo mật khi tự triển khai xác thực.
 
+- **Khám phá AWS Organizations & Identity Center**:
 
+  - Thiết kế Organization Units và áp dụng Service Control Policies (SCPs).
+  - Quản lý danh tính tập trung với SSO cho nhiều tài khoản AWS.
+  - Hiểu các mô hình quản trị được sử dụng bởi các doanh nghiệp lớn.
+
+- **Học quản lý khóa bảo mật với KMS**:
+
+  - Hiểu cách AWS quản lý khóa mã hóa và tại sao mã hóa envelope là tiêu chuẩn.
+  - Thực hành mã hóa tài nguyên và kiểm soát truy cập với chính sách khóa.
+  - Khám phá khóa đa vùng, xoay vòng tự động và kiểm toán với CloudTrail.

@@ -20,7 +20,7 @@ pre: " <b> 4. </b> "
 > * A brief description of the event’s content and main activities
 > * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
 > * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event. -->
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+During my internship, I participated in six events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
 
 ### [Event 1](4.1-Event1/)  
 &emsp;**Event Name:** AWS Cloud Day Vietnam 2025 - AI Edition (Live Telecast & Sessions)
@@ -39,5 +39,49 @@ During my internship, I participated in two events. Each one was a memorable exp
 &emsp;**Date & Time:** 09:30 AM - 11:45 AM, October 16, 2025  
 
 &emsp;**Location:** Academic Hall, FPT University, 7 D1 Street, Long Binh Ward, Ho Chi Minh City
+
+&emsp;**Role:** Attendee  
+
+---
+
+### [Event 3](4.3-Event3/)  
+&emsp;**Event Name:** AWS Cloud Mastery Series #1 - ​AI/ML/GenAI on AWS
+
+&emsp;**Date & Time:** 08:30 AM - 12:00 PM, November 15, 2025  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  
+
+---
+
+### [Event 4](4.4-Event4/)  
+&emsp;**Event Name:** AWS Cloud Mastery Series #2 - DevOps on AWS
+
+&emsp;**Date & Time:** 08:30 AM - 5:00 PM, November 17, 2025  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  
+
+---
+
+### [Event 5](4.5-Event5/)  
+&emsp;**Event Name:** AWS Cloud Mastery Series #3 - AWS Well-Architected Security Pillar
+
+&emsp;**Date & Time:** 08:30 AM - 12:00 PM, November 29, 2025  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee  
+
+---
+
+### [Event 6](4.6-Event6/)  
+&emsp;**Event Name:** Building Agentic AI & Context Optimzation with Amazon Bedrock
+
+&emsp;**Date & Time:** 09:00 AM - 12:00 PM, December 5, 2025  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  

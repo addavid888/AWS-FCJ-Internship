@@ -5,53 +5,58 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 5 Objectives
 
-### Week 5 Objectives:
+- Understand the **Shared Responsibility Model** and what security boundaries AWS handles vs what you must handle.
+- Learn how to manage permissions and identities using **AWS IAM**, including policies, roles, and least-privilege principles.
+- Explore **Amazon Cognito** for user authentication and how it integrates with modern applications.
+- Study **AWS Organizations** and **AWS Identity Center (SSO)** for multi-account management and centralized governance.
+- Learn how encryption works in AWS through **AWS Key Management Service (KMS)** and why proper key handling matters.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                                                                                                                   | On-site? | Date       |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Study the **Shared Responsibility Model** in depth <br> - Understand security boundaries: AWS security **of** the cloud vs your security **in** the cloud <br> - Review real-world consequences of misconfigurations |          | 10/06/2025 |
+| 2   | - Learn core **IAM concepts**: Users, Groups, Roles, Policies <br> - Practice writing IAM policies using JSON <br> - Explore permission boundaries, least privilege, and policy evaluation logic                       |          | 10/07/2025 |
+| 3   | - Introduction to **Amazon Cognito** <br> - Understand User Pools vs Identity Pools <br> - Implement basic app authentication workflow (signup, login, tokens)                                                         |          | 10/08/2025 |
+| 4   | - Learn **AWS Organizations**: multi-account structure, OU design, SCPs <br> - Explore **AWS Identity Center** for centralized access and SSO                                                                          |          | 10/09/2025 |
+| 5   | - Deep dive into **AWS KMS** <br> - Learn about CMKs, key policies, encryption context <br> - Practice encrypting/decrypting data and understanding envelope encryption                                                |          | 10/10/2025 |
+| 6   | - Combine all concepts: build a secure, multi-account governance model <br> - Create IAM roles for app access, enforce SCPs, and encrypt resources with KMS                                                            |          | 10/11/2025 |
 
-### Week 5 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 5 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Understood the Shared Responsibility Model**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Analyzed the exact security boundaries between AWS and the customer.
+  - Identified common failure points caused by misunderstanding these boundaries.
+  - Learned why misconfigurations often matter more than infrastructure failure.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Mastered IAM foundations**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Wrote IAM policies and debugged access denials using policy evaluation logic.
+  - Learned when to use roles instead of long-lived credentials.
+  - Applied least-privilege principles across test environments.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Implemented modern authentication with Cognito**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Learned how Cognito handles user identities, OAuth flows, and token issuance.
+  - Studied integration patterns for web and mobile applications.
+  - Understood security pitfalls when rolling your own authentication.
+
+- **Explored AWS Organizations & Identity Center**:
+
+  - Designed Organization Units and applied Service Control Policies (SCPs).
+  - Centralized identity management with SSO for multiple AWS accounts.
+  - Understood governance patterns used by large enterprises.
+
+- **Learned secure key management with KMS**:
+
+  - Understood how AWS manages encryption keys and why envelope encryption is standard.
+  - Practiced encrypting resources and controlling access with key policies.
+  - Explored multi-region keys, automatic rotation, and auditing with CloudTrail.

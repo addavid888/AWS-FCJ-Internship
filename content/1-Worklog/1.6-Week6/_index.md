@@ -5,53 +5,47 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 6 Objectives
 
-### Week 6 Objectives:
+- Understand **core database concepts**: tables, schemas, primary keys, foreign keys, indexes, partitioning, query execution plans, database logs, and buffer/cache behavior.
+- Learn the differences between **relational** and **non-relational** databases, and where each fits.
+- Distinguish between **OLTP** and **OLAP** workloads and how design choices impact performance.
+- Explore AWS database services: **Amazon RDS**, **Amazon Aurora**, **Amazon ElastiCache**, and **Amazon Redshift**, including their ideal use cases and architectural differences.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                                                                                                                                                                                                          | On-site? | Date       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Study **database fundamentals** <br> - Understand tables, rows, and schema design <br> - Learn **primary key** vs **foreign key** and why normalization exists                                                                                                                                              |          | 10/13/2025 |
+| 2   | - Explore **indexes**, how they work, and why they speed up queries <br> - Study **partitioning**, query planners, and **execution plans** <br> - Learn about transaction logs, WAL, and buffer/cache behavior                                                                                                |          | 10/14/2025 |
+| 3   | - Compare **relational** vs **non-relational** databases <br> - Understand CAP considerations and consistency trade-offs <br> - Learn where document, key-value, graph, and wide-column stores fit                                                                                                            |          | 10/15/2025 |
+| 4   | - Study **OLTP** (transactional) vs **OLAP** (analytical) systems <br> - Understand how data modeling differs for each <br> - Learn why analytical systems require columnar storage                                                                                                                           |          | 10/16/2025 |
+| 5   | - Introduction to **Amazon RDS** and managed relational engines <br> - Explore snapshots, Multi-AZ, backups, storage autoscaling                                                                                                                                                                              |          | 10/17/2025 |
+| 6   | - Deep dive into **Amazon Aurora**, its distributed storage layer <br> - Learn high-performance read scaling and failover design - Explore **Amazon ElastiCache** (Redis/Memcached) for caching, sessions, and low-latency workloads <br> - Study **Amazon Redshift** for OLAP and analytics queries at scale |          | 10/18/2025 |
 
-### Week 6 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 6 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Mastered foundational database concepts**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Understood how primary/foreign keys enforce relationships.
+  - Learned how indexes affect performance and why poorly designed ones make databases cry.
+  - Analyzed query execution plans and saw how optimizers decide access paths.
+  - Understood logs, WAL, and buffer management as part of durability and performance.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Differentiated database types and use cases**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Evaluated relational models for strong consistency and structured data.
+  - Explored non-relational models for flexible schemas and distributed scaling.
+  - Understood when to choose OLTP vs OLAP systems and why mixing them is usually a disaster.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Learned AWS managed database offerings**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Used **Amazon RDS** for simplified relational engine management with backups and Multi-AZ.
+  - Understood why **Aurora** achieves higher throughput using a shared storage layer.
+  - Explored **ElastiCache** as an in-memory system for acceleration and state management.
+  - Used **Amazon Redshift** as a columnar OLAP warehouse designed for complex analytical queries.

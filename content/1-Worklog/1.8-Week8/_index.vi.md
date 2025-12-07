@@ -5,55 +5,40 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Mục tiêu Tuần 8
 
-### Mục tiêu tuần 8:
+- Tiếp tục phát triển **Rafilm: Nền tảng Ghi nhật ký và Đề xuất Phim được hỗ trợ bởi AI**, tập trung vào tính ổn định, tính năng hoàn thiện và luồng tích hợp.
+- Làm thêm các **bài kiểm tra thực hành AWS Cloud Practitioner (CLF-C02)** để đánh giá mức độ sẵn sàng và xác định những khoảng trống kiến thức phút chót.
+- Hoàn thành **kỳ thi giữa kỳ** được lên lịch vào **thứ Sáu (31/10)**.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Các nhiệm vụ sẽ thực hiện trong tuần này
 
+| Ngày | Nhiệm vụ                                                                                                                                                                                             | Tại chỗ? | Ngày       |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1    | - Tiếp tục phát triển tích cực nền tảng Rafilm <br> - Triển khai các quy trình backend còn lại hoặc cải tiến UI/UX                                                                                   |          | 27/10/2025 |
+| 2    | - Chạy các bài kiểm tra thực hành có mục tiêu cho CLF-C02 <br> - Xem lại các câu hỏi trả lời sai trước đó để củng cố các lĩnh vực yếu                                                                |          | 28/10/2025 |
+| 3    | - Tiếp tục luyện thi mô phỏng <br> - Học các kiến thức cơ bản AWS chính: IAM, tối ưu hóa chi phí, gói hỗ trợ, thực hành tốt nhất về kiến trúc                                                        |          | 29/10/2025 |
+| 4    | - Tích hợp các thành phần dự án từ đầu đến cuối: <br> _ Lambda → DynamoDB <br> _ Quy trình Personalize <br> _ Tuyến đường đối thoại Bedrock <br> _ Luồng xác thực Cognito <br> - Kiểm tra quy mô nhỏ |          | 30/10/2025 |
+| 5    | **Ngày Thi Giữa Kỳ**                                                                                                                                                                                 |          | 31/10/2025 |
+| 6    | - Ổn định các nhiệm vụ dự án sau kỳ thi                                                                                                                                                              |          | 01/11/2025 |
 
-### Kết quả đạt được tuần 8:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Thành tựu Tuần 8
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Tiến triển vượt bậc trên Nền tảng Rafilm**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - Củng cố logic backend và cải thiện tính nhất quán của tích hợp dịch vụ.
+  - Đảm bảo dự án phù hợp với các yêu cầu kiến trúc và chức năng từ đề xuất.
+  - Cải thiện độ tin cậy của pipeline luồng đề xuất/dữ liệu.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Tăng cường Sẵn sàng Chứng chỉ AWS**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Hoàn thành nhiều đánh giá thực hành và tinh chỉnh các lĩnh vực kiến thức yếu.
+  - Đạt được sự quen thuộc sâu sắc hơn với logic thi AWS và câu hỏi dựa trên tình huống.
+  - Xây dựng sự tự tin trước kỳ thi giữa kỳ.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- **Hoàn thành Kỳ thi Giữa Kỳ**

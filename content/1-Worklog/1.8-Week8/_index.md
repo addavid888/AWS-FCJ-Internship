@@ -5,53 +5,42 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+# Week 8 Agenda: Midterm Preparation & Project Development
 
-### Week 8 Objectives:
+## Week 8 Objectives
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Continue developing the **Rafilm: AI-Powered Movie Logging & Recommendation Platform**, focusing on stability, feature completeness, and integration flow.
+- Take additional **AWS Cloud Practitioner (CLF-C02) practice tests** to assess readiness and identify last-minute knowledge gaps.
+- Complete the **midterm examination** scheduled for **Friday (10/31)**.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+## Tasks to be carried out this week
 
-### Week 8 Achievements:
+| Day | Task                                                                                                                                                                                             | On-site? | Date       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| 1   | - Resume active development on the Rafilm platform <br> - Implement remaining backend workflows or UI/UX improvements                                                                            |          | 10/27/2025 |
+| 2   | - Run targeted practice quizzes for CLF-C02 <br> - Review previously incorrect questions to reinforce weak areas                                                                                 |          | 10/28/2025 |
+| 3   | - Continue practicing exam simulations <br> - Study key AWS fundamentals: IAM, cost optimization, support plans, architecture best practices                                                     |          | 10/29/2025 |
+| 4   | - Integrate project components end-to-end: <br> _ Lambda → DynamoDB <br> _ Personalize workflow <br> _ Bedrock conversational routes <br> _ Cognito auth flow <br> - Conduct small-scale testing |          | 10/30/2025 |
+| 5   | **Midterm Test Day**                                                                                                                                                                             |          | 10/31/2025 |
+| 6   | - Stabilize project tasks after exam                                                                                                                                                             |          | 11/01/2025 |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Successfully created and configured an AWS Free Tier account.
+## Week 8 Achievements
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- **Advanced progress on the Rafilm Platform**:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Solidified backend logic and improved service integration consistency.
+  - Ensured project aligns with architectural and functional requirements from the proposal.
+  - Improved reliability of the recommendation/data flow pipeline.
 
-* Used AWS CLI to perform basic operations such as:
+- **Strengthened AWS Certification Readiness**:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - Completed multiple practice assessments and refined weak knowledge areas.
+  - Achieved deeper familiarity with AWS exam logic and scenario-based questions.
+  - Built confidence ahead of the midterm.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- **Completed the Midterm Examination**

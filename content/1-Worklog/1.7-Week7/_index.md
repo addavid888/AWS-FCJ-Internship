@@ -5,53 +5,44 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 7 Objectives
 
-### Week 7 Objectives:
+- Learn the different types of **AWS Certifications** and understand the exam format, domains, weighting, and question style for the exam.
+- Take **practice assessments** to identify strengths and knowledge gaps across cloud concepts, security, technology, and billing/pricing.
+- Continue development of the **Rafilm: AI-Powered Movie Logging & Recommendation Platform**, based on the architectural and functional plan in the project proposal.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                                                                                       | On-site? | Date       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| 1   | - Learn the AWS Certification roadmap (Foundational → Associate → Professional → Specialty) <br> - Study the **CLF-C02 exam structure**, including domains, scoring, and question patterns |          | 10/20/2025 |
+| 2   | - Review key Cloud Practitioner topics: Cloud concepts, shared responsibility, IAM basics, support plans <br> - Begin short practice quizzes to gauge baseline level                       |          | 10/21/2025 |
+| 3   | - Take a full-length **CLF-C02 practice test** <br> - Analyze incorrect answers and identify knowledge gaps                                                                                |          | 10/22/2025 |
+| 4   | - Deepen study on weak areas identified from practice tests <br> - Review billing, cost optimization, governance tools, and AWS security fundamentals                                      |          | 10/23/2025 |
+| 5   | - Resume project work: refine architecture components based on earlier weeks <br> - Update Lambda functions, DynamoDB schema adjustments, or API Gateway flows as needed                   |          | 10/24/2025 |
+| 6   | - Implement or refine **core Rafilm features** referenced in the proposal, such as: <br> _ Logging & reviewing workflows <br> _ Assessing the architecture diagram with team members     |          | 10/25/2025 |
+| 7   | - Conduct focused project tasks: <br> _ API correctness <br> _ Data flow from DynamoDB to Personalize <br> _ Authentication flow via Cognito <br> _ Frontend interactions via Amplify      |          | 10/26/2025 |
 
-### Week 7 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 7 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Understood the AWS Certification Landscape**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Learned certification categories and which skills they validate.
+  - Gained familiarity with the exam blueprint, including domain weighting and question style.
+  - Identified required AWS knowledge areas: cloud principles, architecture basics, security, pricing, and support tiers.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Completed Practice Assessments**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Completed multiple quizzes and at least one full practice exam.
+  - Identified gaps in areas such as IAM fundamentals, pricing models, or architectural best practices.
+  - Built a targeted study plan based on practice performance.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Progressed the Rafilm Project**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Strengthened the serverless backend built on Lambda, API Gateway, DynamoDB.
+  - Verified frontend-to-backend flows via Amplify hosting and Cognito authentication.

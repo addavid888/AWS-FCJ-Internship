@@ -5,55 +5,44 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Mục tiêu Tuần 7
 
-### Mục tiêu tuần 7:
+- Tìm hiểu các loại **Chứng chỉ AWS** khác nhau và hiểu rõ định dạng kỳ thi, các lĩnh vực, trọng số và phong cách câu hỏi của kỳ thi.
+- Thực hiện **bài đánh giá thực hành** để xác định điểm mạnh và khoảng trống kiến thức về các khái niệm đám mây, bảo mật, công nghệ và thanh toán/định giá.
+- Tiếp tục phát triển **Rafilm: Nền tảng Ghi chép Phim & Đề xuất được hỗ trợ bởi AI**, dựa trên kế hoạch kiến trúc và chức năng trong đề xuất dự án.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Các nhiệm vụ thực hiện trong tuần này
 
+| Ngày | Nhiệm vụ                                                                                                                                                                                     | Tại chỗ? | Ngày       |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------- |
+| 1    | - Tìm hiểu lộ trình Chứng chỉ AWS (Cơ bản → Trung cấp → Chuyên nghiệp → Chuyên môn) <br> - Nghiên cứu **cấu trúc kỳ thi CLF-C02**, bao gồm các lĩnh vực, cách chấm điểm và mẫu câu hỏi | | 10/20/2025 |
+| 2    | - Ôn tập các chủ đề Cloud Practitioner chính: Khái niệm đám mây, trách nhiệm chia sẻ, cơ bản IAM, gói hỗ trợ <br> - Bắt đầu các bài kiểm tra thực hành ngắn để đánh giá mức độ cơ bản     | | 10/21/2025 |
+| 3    | - Thực hiện **bài kiểm tra thực hành CLF-C02** toàn bộ thời lượng <br> - Phân tích câu trả lời sai và xác định khoảng trống kiến thức                                                     | | 10/22/2025 |
+| 4    | - Nghiên cứu sâu hơn các lĩnh vực yếu được xác định từ bài kiểm tra thực hành <br> - Ôn tập thanh toán, tối ưu hóa chi phí, công cụ quản trị và cơ bản bảo mật AWS                      | | 10/23/2025 |
+| 5    | - Tiếp tục công việc dự án: tinh chỉnh các thành phần kiến trúc dựa trên các tuần trước <br> - Cập nhật hàm Lambda, điều chỉnh schema DynamoDB hoặc luồng API Gateway theo nhu cầu        | | 10/24/2025 |
+| 6    | - Triển khai hoặc tinh chỉnh **các tính năng Rafilm cốt lõi** được tham chiếu trong đề xuất, chẳng hạn như: <br> _ Luồng ghi chép & đánh giá <br> _ Đánh giá sơ đồ kiến trúc với thành viên nhóm | | 10/25/2025 |
+| 7    | - Thực hiện các nhiệm vụ dự án tập trung: <br> _ Tính chính xác của API <br> _ Luồng dữ liệu từ DynamoDB đến Personalize <br> _ Luồng xác thực qua Cognito <br> _ Tương tác frontend qua Amplify | | 10/26/2025 |
 
-### Kết quả đạt được tuần 7:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Thành tựu Tuần 7
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Hiểu rõ Bối cảnh Chứng chỉ AWS**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - Tìm hiểu các danh mục chứng chỉ và kỹ năng mà chúng xác nhận.
+  - Làm quen với bản thiết kế kỳ thi, bao gồm trọng số lĩnh vực và phong cách câu hỏi.
+  - Xác định các lĩnh vực kiến thức AWS cần thiết: nguyên tắc đám mây, cơ bản kiến trúc, bảo mật, định giá và các tầng hỗ trợ.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Hoàn thành Bài đánh giá Thực hành**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Hoàn thành nhiều bài kiểm tra ngắn và ít nhất một bài thi thực hành đầy đủ.
+  - Xác định khoảng trống trong các lĩnh vực như cơ bản IAM, mô hình định giá hoặc thực hành tốt nhất về kiến trúc.
+  - Xây dựng kế hoạch học tập có mục tiêu dựa trên hiệu suất thực hành.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- **Tiến bộ Dự án Rafilm**:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+  - Củng cố backend serverless được xây dựng trên Lambda, API Gateway, DynamoDB.
+  - Xác minh luồng từ frontend đến backend qua hosting Amplify và xác thực Cognito.
