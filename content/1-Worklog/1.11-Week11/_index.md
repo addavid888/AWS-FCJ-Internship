@@ -5,53 +5,52 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 11 Objectives
 
-### Week 11 Objectives:
+- Conduct the weekly **team meeting** to allocate provisioning tasks and synchronize project progress.
+- Participate in the **AWS Cloud Mastery Series #1 Workshop** on **11/17**, applying insights to the ongoing architecture and development work.
+- Continue development of the **Rafilm** platform, focusing on refining existing functionalities and improving stability.
+- Update project **documentation** including SRS, proposal, and solution diagrams to reflect recent changes.
+- Test and debug core implemented features such as fetching film information, logging watch history, and creating reviews to improve performance and reliability.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                                                                                                                        | On-site? | Date       |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Conduct weekly team meeting <br> - Assign weekly provisioning & development tasks                                                                                                                                         |          | 11/17/2025 |
+| 2   | - Join AWS Cloud Mastery Series #2 Workshop <br> - Summarize key insights relevant to Rafilm                                                                                                                                  |          | 11/17/2025 |
+| 3   | - Continue development on Rafilm <br> - Improve backend workflows or UI/UX flows                                                                                                                                            |          | 11/18/2025 |
+| 4   | - Update and refine project documentation: <br> _ SRS <br> _ Proposal <br> _ System architecture diagrams                                                                                                                  |          | 11/19/2025 |
+| 5   | - Conduct functional testing for core features: <br> _ Fetching film information (TMDb integration) <br> _ Logging watch history <br> _ Creating and retrieving user reviews <br> - Begin debugging and performance tuning |          | 11/20/2025 |
+| 6   | - Continue testing and optimizing implemented features <br> - Validate data flow stability between frontend, Lambda, and DynamoDB                                                                                           |          | 11/21/2025 |
 
-### Week 11 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 11 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Team coordination and task alignment**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Conducted the weekly meeting to maintain workload visibility and ensure smooth progress.
+  - Improved task allocation and clarified responsibilities.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Participated in AWS Cloud Mastery Series #1**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Gained additional architectural insights to apply to Rafilm’s backend and AI integration strategies.
+  - Incorporated workshop learnings into documentation and technical decisions.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Advanced Rafilm development**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Improved core workflows across both backend and frontend.
+  - Enhanced consistency and stability of the user interactions involving logging and reviewing.
+
+- **Updated project documentation**:
+
+  - Revised SRS, architecture diagrams, and proposal to reflect current implementation and design direction.
+  - Ensured documentation aligns with architectural best practices and the evolving solution.
+
+- **Tested and improved implemented features**:
+  - Debugged workflows involving TMDb fetching, watch history logging, and reviews.
+  - Increased efficiency and reduced defects through iterative testing and refinement.

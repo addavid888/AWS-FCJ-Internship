@@ -22,14 +22,14 @@ pre: " <b> 1.4. </b> "
 
 ## Các Nhiệm Vụ Thực Hiện Trong Tuần
 
-| Ngày | Nhiệm Vụ                                                                                                                                                                                                                                      | Tại văn phòng? | Ngày       |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
-| 1    | - Giới thiệu các khái niệm cơ bản **Amazon S3** <br> - Hiểu về đối tượng, bucket, vùng, tính nhất quán dữ liệu <br>- Nghiên cứu **S3 Access Points**, chính sách bucket, và mô hình kiểm soát truy cập                                        |                | 09/29/2025 |
-| 2    | - Học **S3 Storage Classes** (Standard, IA, One Zone, Intelligent Tiering, các cấp Glacier) <br> - Khám phá quy tắc vòng đời và lập kế hoạch lưu trữ tối ưu chi phí                                                                           | ✅             | 09/30/2025 |
-| 3    | - Thiết lập **S3 Static Website** <br> - Cấu hình **CORS** cho ứng dụng web <br> - Hiểu cài đặt truy cập công khai và các cân nhắc bảo mật                                                                                                    |                | 10/01/2025 |
-| 4    | - Học **chiến lược đặt tên khóa đối tượng S3** và cách chúng ảnh hưởng đến hiệu suất <br> - Khám phá **multipart upload**, phiên bản, và các tùy chọn sao chép                                                                                |                | 10/02/2025 |
-| 5    | - Tìm hiểu sâu về **S3 Glacier** và các cấp độ truy xuất <br> - Thực hành tạo vault, tải lên archive, và yêu cầu khôi phục                                                                                                                    |                | 10/03/2025 |
-| 6    | - Khám phá lưu trữ lai và biên: thiết bị **Snow Family** cho truyền dữ liệu quy mô lớn <br> - Học các trường hợp sử dụng **AWS Storage Gateway** (File/Volume/Tape Gateway) <br> - Giới thiệu **AWS Backup** cho điều phối sao lưu đa dịch vụ |                | 10/04/2025 |
+| Ngày | Nhiệm Vụ                                                                                                                                                                                                                                      | On-site? | Ngày       |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1    | - Giới thiệu các khái niệm cơ bản **Amazon S3** <br> - Hiểu về đối tượng, bucket, vùng, tính nhất quán dữ liệu <br>- Nghiên cứu **S3 Access Points**, chính sách bucket, và mô hình kiểm soát truy cập                                        |          | 09/29/2025 |
+| 2    | - Học **S3 Storage Classes** (Standard, IA, One Zone, Intelligent Tiering, các cấp Glacier) <br> - Khám phá quy tắc vòng đời và lập kế hoạch lưu trữ tối ưu chi phí                                                                           | ✅       | 09/30/2025 |
+| 3    | - Thiết lập **S3 Static Website** <br> - Cấu hình **CORS** cho ứng dụng web <br> - Hiểu cài đặt truy cập công khai và các cân nhắc bảo mật                                                                                                    |          | 10/01/2025 |
+| 4    | - Học **chiến lược đặt tên khóa đối tượng S3** và cách chúng ảnh hưởng đến hiệu suất <br> - Khám phá **multipart upload**, phiên bản, và các tùy chọn sao chép                                                                                |          | 10/02/2025 |
+| 5    | - Tìm hiểu sâu về **S3 Glacier** và các cấp độ truy xuất <br> - Thực hành tạo vault, tải lên archive, và yêu cầu khôi phục                                                                                                                    |          | 10/03/2025 |
+| 6    | - Khám phá lưu trữ lai và biên: thiết bị **Snow Family** cho truyền dữ liệu quy mô lớn <br> - Học các trường hợp sử dụng **AWS Storage Gateway** (File/Volume/Tape Gateway) <br> - Giới thiệu **AWS Backup** cho điều phối sao lưu đa dịch vụ |          | 10/04/2025 |
 
 ---
 

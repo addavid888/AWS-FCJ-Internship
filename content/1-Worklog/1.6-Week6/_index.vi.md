@@ -17,7 +17,7 @@ pre: " <b> 1.6. </b> "
 
 ## Các tác vụ cần thực hiện trong tuần này
 
-| Ngày | Tác vụ                                                                                                                                                                                                                              | Tại chỗ? | Ngày       |
+| Ngày | Tác vụ                                                                                                                                                                                                                              | On-site? | Ngày       |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
 | 1    | - Học **kiến thức cơ bản về cơ sở dữ liệu** <br> - Hiểu về bảng, hàng và thiết kế schema <br> - Tìm hiểu **khóa chính** vs **khóa ngoại** và tại sao cần chuẩn hóa                                                                  |          | 10/13/2025 |
 | 2    | - Khám phá **chỉ mục**, cách chúng hoạt động và tại sao chúng tăng tốc truy vấn <br> - Học về **phân vùng**, trình lập kế hoạch truy vấn và **kế hoạch thực thi** <br> - Tìm hiểu về nhật ký giao dịch, WAL và hành vi buffer/cache |          | 10/14/2025 |

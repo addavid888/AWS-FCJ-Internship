@@ -5,53 +5,47 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 10 Objectives
 
-### Week 10 Objectives:
+- Conduct weekly **team meetings** to assign tasks, synchronize progress, and ensure provisioning timelines stay on track.
+- Attend the **AWS Cloud Mastery Series #1 Workshop** on **11/15**, gaining deeper cloud insights and applying them to the project.
+- Continue development work on the **Rafilm** platform, focusing on stability, integration consistency, and feature refinement.
+- Begin **drafting the updated project proposal** and evaluating the existing **solution architecture** for alignment with best practices.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                      | On-site? | Date           |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | -------- | -------------- |
+| 1   | - Conduct weekly team meeting <br> - Assign provisioning tasks and review previous week’s progress                        |          | 11/10/2025     |
+| 2   | - Continue Rafilm development <br> - Refine backend logic or improve API flows                                            |          | 11/11/2025     |
+| 3   | - Work on UI/UX enhancements or frontend optimizations for Rafilm <br> - Check for integration friction points            |          | 11/12/2025     |
+| 4   | - Begin drafting updated project proposal <br> - Review considerations from the earlier architecture document         |          | 11/13/2025     |
+| 5   | - Assess current solution architecture <br> - Identify gaps in scalability, cost, security, and operational readiness |          | 11/14/2025     |
+| 6   | Join AWS Cloud Mastery Series #1 Workshop <br> - Summarize insights and lessons learned                               |          | 11/15/2025 |
 
-### Week 10 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 10 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Team coordination improvements**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Conducted provisioning-focused meetings to align workloads and responsibilities.
+  - Improved clarity on task ownership and overall development pacing.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Participated in AWS Cloud Mastery Series #1**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Gained updated knowledge on AWS architectural best practices.
+  - Collected relevant lessons to enhance Rafilm’s architecture and implementation plan.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Continued Rafilm development**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Strengthened application workflows across frontend and backend layers.
+  - Improved UI/UX consistency and project functionality.
+
+- **Drafted and assessed the proposal & architecture**:
+
+  - Updated proposal content to match project direction and technical decisions.
+  - Assessed solution architecture for gaps, ensuring better alignment with Well-Architected principles.

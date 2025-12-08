@@ -5,54 +5,56 @@ weight: 2
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-### Mục tiêu tuần 12:
+## Mục tiêu Tuần 12
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tiến hành **cuộc họp nhóm** hàng tuần để hoàn thiện các nhiệm vụ cung cấp, điều phối nỗ lực và đảm bảo tất cả công việc còn lại được phân công đúng cách.
+- Tham dự **AWS Cloud Mastery Series #3 Workshop** vào ngày **29/11** và áp dụng những hiểu biết liên quan để tinh chỉnh dự án.
+- Tiếp tục phát triển nền tảng **Rafilm**, tập trung vào tích hợp cuối cùng, hoàn thiện và ổn định.
+- Hoàn thành cập nhật **tài liệu** dự án (SRS, proposal, sơ đồ kiến trúc) để phù hợp với việc triển khai đã hoàn thành.
+- Kiểm tra và gỡ lỗi các tính năng chính đã triển khai để cải thiện hiệu quả, bao gồm tìm nạp dữ liệu phim, ghi lại lịch sử xem và tạo đánh giá.
+- Hoàn thành và tinh chỉnh **tích hợp AI**, bao gồm quy trình chatbot Bedrock và pipeline đề xuất Amazon Personalize.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+---
 
+## Các nhiệm vụ sẽ thực hiện trong tuần này
 
-### Kết quả đạt được tuần 12:
+| Ngày | Nhiệm vụ                                                                                                                                                                                               | On-site? | Ngày       |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| 1    | - Tiến hành cuộc họp nhóm cuối cùng hàng tuần <br> - Phân công các nhiệm vụ cuối cùng cho phát triển, kiểm tra và tài liệu                                                                             |          | 24/11/2025 |
+| 2    | - Tiếp tục phát triển Rafilm <br> - Tích hợp các thành phần UI còn lại hoặc logic backend                                                                                                              |          | 25/11/2025 |
+| 3    | - Tập trung vào các nhiệm vụ tích hợp AI: <br> _ Tinh chỉnh chatbot Bedrock <br> _ Xác thực luồng đề xuất Personalize                                                                                  |          | 26/11/2025 |
+| 4    | - Cập nhật và hoàn thiện tài liệu: <br> _ SRS <br> _ Đề xuất <br> _ Kiến trúc hệ thống và sơ đồ luồng dữ liệu                                                                                         |          | 27/11/2025 |
+| 5    | - Kiểm tra kỹ lưỡng các tính năng đã triển khai: <br> _ Tính ổn định của việc tìm nạp TMDb <br> _ Ghi lại lịch sử xem <br> _ Tạo và truy xuất đánh giá <br> - Tối ưu hóa hiệu suất và sửa lỗi còn lại |          | 28/11/2025 |
+| 6    | - Tham gia AWS Cloud Mastery Series #3 Workshop <br> - Thu thập bất kỳ thông tin hữu ích nào để hoàn thiện các sản phẩm cuối cùng                                                                      |          | 29/11/2025 |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+---
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+## Thành tựu Tuần 12
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- **Hoàn thành điều phối nhóm cuối cùng**:
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+  - Tổ chức cuộc họp hàng tuần cuối cùng để điều phối trách nhiệm và đảm bảo sẵn sàng cho giao hàng cuối cùng.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- **Tham gia AWS Cloud Mastery Series #3**:
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+  - Có được những hiểu biết kết luận hữu ích để hoàn thiện kiến trúc và quyết định triển khai.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- **Hoàn thành các nhiệm vụ phát triển Rafilm**:
 
+  - Hoàn thiện UI, backend và logic tích hợp trên tất cả các thành phần.
+  - Đảm bảo tương tác ổn định giữa Amplify, Lambda, DynamoDB, Personalize, TMDb và Bedrock.
 
+- **Hoàn thiện tài liệu dự án**:
+
+  - Cập nhật toàn bộ SRS, đề xuất và sơ đồ kiến trúc để phản ánh chính xác các tính năng đã triển khai.
+  - Đảm bảo tất cả tài liệu đáp ứng yêu cầu về độ rõ ràng và tính đầy đủ.
+
+- **Kiểm tra và tối ưu hóa các tính năng cốt lõi**:
+
+  - Cải thiện hiệu suất và độ tin cậy cho việc tìm nạp thông tin phim, ghi lại lịch sử xem và tạo đánh giá.
+  - Sửa các lỗi phát hiện trong quá trình xác thực từ đầu đến cuối.
+
+- **Hoàn thành tích hợp AI**:
+
+  - Hoàn thiện quy trình chatbot được hỗ trợ bởi Bedrock.

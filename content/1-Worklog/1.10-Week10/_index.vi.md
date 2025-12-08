@@ -5,55 +5,47 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Mục tiêu Tuần 10
 
-### Mục tiêu tuần 10:
+- Tổ chức **họp nhóm hàng tuần** để phân công nhiệm vụ, đồng bộ tiến độ và đảm bảo lịch trình cung cấp dịch vụ đúng hạn.
+- Tham dự **Hội thảo AWS Cloud Mastery Series #1** vào **15/11**, thu thập hiểu biết sâu sắc về cloud và áp dụng vào dự án.
+- Tiếp tục công việc phát triển nền tảng **Rafilm**, tập trung vào tính ổn định, nhất quán tích hợp và hoàn thiện tính năng.
+- Bắt đầu **soạn thảo đề xuất dự án cập nhật** và đánh giá **kiến trúc giải pháp** hiện tại để phù hợp với các thực hành tốt nhất.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Các nhiệm vụ thực hiện trong tuần
 
+| Ngày | Nhiệm vụ                                                                                                                            | On-site? | Ngày       |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1    | - Tổ chức họp nhóm hàng tuần <br> - Phân công nhiệm vụ cung cấp dịch vụ và xem xét tiến độ tuần trước                               |          | 10/11/2025 |
+| 2    | - Tiếp tục phát triển Rafilm <br> - Tinh chỉnh logic backend hoặc cải thiện luồng API                                               |          | 11/11/2025 |
+| 3    | - Làm việc trên cải tiến UI/UX hoặc tối ưu hóa frontend cho Rafilm <br> - Kiểm tra các điểm ma sát tích hợp                         |          | 12/11/2025 |
+| 4    | - Bắt đầu soạn thảo đề xuất dự án cập nhật <br> - Xem xét các cân nhắc từ tài liệu kiến trúc trước đó                               |          | 13/11/2025 |
+| 5    | - Đánh giá kiến trúc giải pháp hiện tại <br> - Xác định các khoảng trống về khả năng mở rộng, chi phí, bảo mật và sẵn sàng vận hành |          | 14/11/2025 |
+| 6    | - Tham gia Hội thảo AWS Cloud Mastery Series #1 <br> - Tóm tắt các hiểu biết và bài học kinh nghiệm                                 |          | 15/11/2025 |
 
-### Kết quả đạt được tuần 10:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Thành tựu Tuần 10
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Cải thiện phối hợp nhóm**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - Tổ chức các cuộc họp tập trung vào cung cấp dịch vụ để đồng bộ khối lượng công việc và trách nhiệm.
+  - Cải thiện sự rõ ràng về quyền sở hữu nhiệm vụ và nhịp độ phát triển tổng thể.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Tham gia AWS Cloud Mastery Series #1**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Thu thập kiến thức cập nhật về các thực hành tốt nhất của kiến trúc AWS.
+  - Tổng hợp các bài học liên quan để cải tiến kiến trúc và kế hoạch triển khai của Rafilm.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- **Tiếp tục phát triển Rafilm**:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+  - Củng cố quy trình ứng dụng trên các lớp frontend và backend.
+  - Cải thiện tính nhất quán UI/UX và chức năng dự án.
 
+- **Soạn thảo và đánh giá đề xuất & kiến trúc**:
 
+  - Cập nhật nội dung đề xuất để phù hợp với hướng dự án và các quyết định kỹ thuật.
+  - Đánh giá kiến trúc giải pháp về các khoảng trống, đảm bảo sự phù hợp tốt hơn với các nguyên tắc Well-Architected.

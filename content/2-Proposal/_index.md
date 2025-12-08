@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
+[Document version of the proposal](https://docs.google.com/document/d/1-WtW93MMZPBzKaP8AzaQ2Zy3GQCm-i-ZW2sAS80ZsUg/edit?usp=sharing)
+
 # Rafilm: AI-Powered Movie Logging & Recommendation Platform
 
 ## A Serverless AWS Solution for Intelligent Movie Discovery

@@ -5,55 +5,52 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Mục tiêu Tuần 11
 
-### Mục tiêu tuần 11:
+- Tiến hành **cuộc họp nhóm** hàng tuần để phân bổ các tasks và cập nhật tiến độ dự án.
+- Tham gia **AWS Cloud Mastery Series #2 Workshop** vào ngày **17/11**, áp dụng những hiểu biết vào công việc kiến trúc và phát triển đang tiến hành.
+- Tiếp tục phát triển nền tảng **Rafilm**, tập trung vào việc cải tiến các chức năng hiện có và cải thiện tính ổn định.
+- Cập nhật **tài liệu** dự án bao gồm SRS, đề xuất, và sơ đồ giải pháp để phản ánh những thay đổi gần đây.
+- Kiểm thử và debug các tính năng cốt lõi đã triển khai như lấy thông tin phim, ghi lại lịch sử xem và tạo đánh giá để cải thiện hiệu suất và độ tin cậy.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Các nhiệm vụ cần thực hiện trong tuần này
 
+| Ngày | Nhiệm vụ                                                                                                                                                                                                                 | On-site? | Ngày       |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| 1    | - Tiến hành cuộc họp nhóm hàng tuần <br> - Phân công các nhiệm vụ provisioning & phát triển hàng tuần                                                                                                                    |          | 17/11/2025 |
+| 2    | - Tham gia AWS Cloud Mastery Series #2 Workshop <br> - Tóm tắt các hiểu biết chính liên quan đến Rafilm                                                                                                                  |          | 17/11/2025 |
+| 3    | - Tiếp tục phát triển Rafilm <br> - Cải thiện quy trình backend hoặc quy trình UI/UX                                                                                                                                     |          | 18/11/2025 |
+| 4    | - Cập nhật và cải tiến tài liệu dự án: <br> _ SRS <br> _ Proposal <br> \_ Sơ đồ kiến trúc hệ thống                                                                                                                       |          | 19/11/2025 |
+| 5    | - Tiến hành kiểm thử chức năng cho các tính năng cốt lõi: <br> _ Lấy thông tin phim (tích hợp TMDb) <br> _ Ghi lại lịch sử xem <br> \_ Tạo và truy xuất đánh giá người dùng <br> - Bắt đầu debug và điều chỉnh hiệu suất |          | 20/11/2025 |
+| 6    | - Tiếp tục kiểm thử và tối ưu hóa các tính năng đã triển khai <br> - Xác thực tính ổn định của luồng dữ liệu giữa frontend, Lambda và DynamoDB                                                                           |          | 21/11/2025 |
 
-### Kết quả đạt được tuần 11:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Thành tựu Tuần 11
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- **Điều phối nhóm và căn chỉnh nhiệm vụ**:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+  - Tiến hành cuộc họp hàng tuần để duy trì tầm nhìn về khối lượng công việc và đảm bảo tiến độ suôn sẻ.
+  - Cải thiện phân bổ nhiệm vụ và làm rõ trách nhiệm.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Tham gia AWS Cloud Mastery Series #1**:
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+  - Đạt được những hiểu biết bổ sung về kiến trúc để áp dụng vào các chiến lược backend và tích hợp AI của Rafilm.
+  - Kết hợp những kiến thức từ workshop vào tài liệu và các quyết định kỹ thuật.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- **Tiến bộ trong phát triển Rafilm**:
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+  - Cải thiện các quy trình cốt lõi trên cả backend và frontend.
+  - Tăng cường tính nhất quán và ổn định của các tương tác người dùng liên quan đến việc ghi log và đánh giá.
 
+- **Cập nhật tài liệu dự án**:
 
+  - Sửa đổi SRS, sơ đồ kiến trúc và đề xuất để phản ánh hướng triển khai và thiết kế hiện tại.
+  - Đảm bảo tài liệu phù hợp với các thực tiễn tốt nhất về kiến trúc và giải pháp đang phát triển.
+
+- **Kiểm thử và cải thiện các tính năng đã triển khai**:
+  - Debug các quy trình liên quan đến việc lấy dữ liệu TMDb, ghi lại lịch sử xem và đánh giá.
+  - Tăng hiệu quả và giảm lỗi thông qua kiểm thử và cải tiến liên tục.

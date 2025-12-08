@@ -5,40 +5,39 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
 
 **1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+Nơi làm việc thân thiện và cởi mở. Các thành viên FCAJ luôn sẵn sàng hỗ trợ khi tôi gặp khó khăn, ngay cả ngoài giờ làm việc thông thường. Văn phòng sạch sẽ và thoải mái, giúp tôi tập trung tốt hơn.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Sự hỗ trợ từ Mentor / Quản trị viên nhóm**  
+Mentor của tôi hướng dẫn kỹ lưỡng, giải thích rõ ràng khi tôi bối rối, và luôn khuyến khích tôi đặt câu hỏi. Đội ngũ quản trị xử lý các công việc hành chính một cách trơn tru, cung cấp các tài liệu cần thiết và đảm bảo tôi có những gì cần để làm việc hiệu quả. Tôi đặc biệt trân trọng việc mentor để tôi tự giải quyết vấn đề thay vì ngay lập tức đưa ra giải pháp.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Tính liên quan của công việc đến chuyên ngành học tập**  
+Các nhiệm vụ được giao phù hợp chặt chẽ với những gì tôi đã học ở trường đại học đồng thời cũng giúp tôi tiếp xúc với những lĩnh vực mới mà tôi chưa từng gặp. Điều này giúp tôi củng cố kiến thức nền tảng và có được kinh nghiệm thực tế.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**4. Cơ hội học tập và phát triển kỹ năng**  
+Trong suốt thời gian thực tập, tôi đã học được các kỹ năng mới như sử dụng công cụ quản lý dự án, cộng tác nhóm và giao tiếp chuyên nghiệp trong môi trường doanh nghiệp. Mentor của tôi cũng chia sẻ những hiểu biết thực tế giúp tôi suy nghĩ rõ ràng hơn về định hướng nghề nghiệp.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+**5. Văn hóa công ty và tinh thần đồng đội**  
+Công ty có văn hóa tích cực: mọi người tôn trọng lẫn nhau, làm việc có trách nhiệm nhưng vẫn duy trì bầu không khí vui vẻ.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+**6. Chính sách thực tập / Phúc lợi**  
+Công ty cung cấp sự linh hoạt trong giờ làm việc khi cần thiết. Ngoài ra, việc có thể tham gia các buổi đào tạo nội bộ là một lợi thế đáng kể.
 
+---
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+### Câu hỏi bổ sung
 
+#### Điều gì bạn thấy **hài lòng nhất** trong thời gian thực tập?
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+- Tôi hài lòng nhất với việc có thể học được nhiều kiến thức trong thời gian ngắn. Sự kết hợp giữa sự hướng dẫn hỗ trợ từ mentor, các nhiệm vụ thực hành và tiếp xúc với các dự án thực tế đã làm cho trải nghiệm này thực sự có ý nghĩa. Tôi cảm thấy rằng công việc của mình đã đóng góp cho nhóm và kỹ năng của tôi đã cải thiện đáng kể.
+
+#### Bạn nghĩ công ty **nên cải thiện** điều gì cho các thực tập sinh trong tương lai?
+
+- Sẽ giúp ích hơn nếu như có một schedule về sức chứa của văn phòng trước khi một tuần bắt đầu, để tôi có thể chủ động hơn trong việc đăng ký lên văn phòng.
+
+#### Nếu giới thiệu cho bạn bè, bạn có **gợi ý họ thực tập ở đây** không? Tại sao?
+
+- Có. Môi trường làm việc hỗ trợ tốt việc học tập và phát triển, và các tasks mang lại sự cân bằng tốt giữa việc áp dụng kiến thức học thuật và học các kỹ năng mới. Đây là nơi các thực tập sinh có thể phát triển trong khi đóng góp có ý nghĩa cho các dự án thực tế.

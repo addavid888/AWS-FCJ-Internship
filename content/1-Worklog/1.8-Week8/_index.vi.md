@@ -16,7 +16,7 @@ pre: " <b> 1.8. </b> "
 
 ## Các nhiệm vụ sẽ thực hiện trong tuần này
 
-| Ngày | Nhiệm vụ                                                                                                                                                                                             | Tại chỗ? | Ngày       |
+| Ngày | Nhiệm vụ                                                                                                                                                                                             | On-site? | Ngày       |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
 | 1    | - Tiếp tục phát triển tích cực nền tảng Rafilm <br> - Triển khai các quy trình backend còn lại hoặc cải tiến UI/UX                                                                                   |          | 27/10/2025 |
 | 2    | - Chạy các bài kiểm tra thực hành có mục tiêu cho CLF-C02 <br> - Xem lại các câu hỏi trả lời sai trước đó để củng cố các lĩnh vực yếu                                                                |          | 28/10/2025 |

@@ -5,53 +5,56 @@ weight: 2
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Week 12 Objectives
 
-### Week 12 Objectives:
+- Conduct the weekly **team meeting** to finalize provisioning tasks, align efforts, and ensure all remaining work is properly delegated.
+- Attend the **AWS Cloud Mastery Series #3 Workshop** on **11/29** and apply relevant insights to project refinement.
+- Continue development of the **Rafilm** platform, focusing on final integration, polishing, and stability.
+- Complete updates to project **documentation** (SRS, proposal, architecture diagrams) to match the finished implementation.
+- Test and debug key implemented features for improved efficiency, including film data fetching, watch history logging, and review creation.
+- Complete and refine **AI integration**, including the Bedrock chatbot workflow and Amazon Personalize recommendation pipeline.
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## Tasks to be carried out this week
 
+| Day | Task                                                                                                                                                                                     | On-site? | Date       |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
+| 1   | - Conduct final weekly team meeting <br> - Assign last tasks for development, testing, and documentation                                                                                 |          | 11/24/2025 |
+| 2   | - Continue Rafilm development <br> - Integrate remaining UI components or backend logic                                                                                                  |          | 11/25/2025 |
+| 3   | - Focus on AI integration tasks: <br> _ Bedrock chatbot refinement <br> _ Personalize recommendation flow validation                                                                     |          | 11/26/2025 |
+| 4   | - Update and finalize documentation: <br> _ SRS <br> _ Proposal <br> _ System architecture and data flow diagrams                                                                       |          | 11/27/2025 |
+| 5   | - Test implemented features thoroughly: <br> _ TMDb fetching stability <br> _ Logging watch history _ Review creation & retrieval <br> - Optimize performance and fix remaining defects |          | 11/28/2025 |
+| 6   | - Join AWS Cloud Mastery Series #3 Workshop <br> - Gather any applicable insights for polishing the final deliverables                                                                   |          | 11/29/2025 |
 
-### Week 12 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Week 12 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- **Final team coordination completed**:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+  - Held the last weekly meeting to align responsibilities and ensure readiness for final delivery.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- **Participated in AWS Cloud Mastery Series #3**:
 
-* Used AWS CLI to perform basic operations such as:
+  - Gained concluding insights useful for finalizing architecture and implementation decisions.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- **Completed Rafilm development tasks**:
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Finalized UI, backend, and integration logic across all components.
+  - Ensured stable interactions between Amplify, Lambda, DynamoDB, Personalize, TMDb, and Bedrock.
+
+- **Finalized project documentation**:
+
+  - Updated the full SRS, proposal, and architecture diagrams to accurately reflect implemented features.
+  - Ensured all materials meet clarity and completeness requirements.
+
+- **Tested and optimized core features**:
+
+  - Improved performance and reliability for film information fetching, watch history logging, and review creation.
+  - Fixed defects found during end-to-end validation.
+
+- **Completed AI integration**:
+
+  - Finalized the Bedrock-powered chatbot workflow.
