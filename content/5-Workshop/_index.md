@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-**Warning:** The content below is for training and reference purposes only. Please **do not copy verbatim** into official reports or public documentation.
-{{% /notice %}}
-
 # AWS Cognito + Amplify SDK Workshop
 
 ## Overview
