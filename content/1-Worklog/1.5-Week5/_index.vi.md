@@ -20,7 +20,7 @@ pre: " <b> 1.5. </b> "
 
 | Ngày | Nhiệm vụ                                                                                                                                                                                                            | On-site? | Ngày       |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
-| 1    | - Nghiên cứu sâu về **Mô hình Trách nhiệm Chia sẻ** <br> - Hiểu về ranh giới bảo mật: bảo mật **của** AWS trên cloud vs bảo mật **trong** cloud của bạn <br> - Xem xét hậu quả thực tế của việc cấu hình sai        |          | 10/06/2025 |
+| 1    | - Nghiên cứu sâu về **Mô hình Trách nhiệm Chia sẻ** <br> - Hiểu về ranh giới bảo mật: bảo mật **của** AWS trên cloud vs bảo mật **trong** cloud của bạn <br> - Xem xét hậu quả thực tế của việc cấu hình sai        |  ✅         | 10/06/2025 |
 | 2    | - Học các khái niệm cốt lõi của **IAM**: Người dùng, Nhóm, Vai trò, Chính sách <br> - Thực hành viết chính sách IAM bằng JSON <br> - Khám phá ranh giới quyền hạn, đặc quyền tối thiểu và logic đánh giá chính sách |          | 10/07/2025 |
 | 3    | - Giới thiệu về **Amazon Cognito** <br> - Hiểu về User Pools vs Identity Pools <br> - Triển khai quy trình xác thực ứng dụng cơ bản (đăng ký, đăng nhập, token)                                                     |          | 10/08/2025 |
 | 4    | - Học **AWS Organizations**: cấu trúc đa tài khoản, thiết kế OU, SCPs <br> - Khám phá **AWS Identity Center** cho truy cập tập trung và SSO                                                                         |          | 10/09/2025 |

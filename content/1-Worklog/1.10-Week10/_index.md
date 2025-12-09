@@ -19,8 +19,9 @@ pre: " <b> 1.10. </b> "
 
 | Day | Task                                                                                                                      | On-site? | Date           |
 | --- | ------------------------------------------------------------------------------------------------------------------------- | -------- | -------------- |
-| 1   | - Conduct weekly team meeting <br> - Assign provisioning tasks and review previous week’s progress                        |          | 11/10/2025     |
-| 2   | - Continue Rafilm development <br> - Refine backend logic or improve API flows                                            |          | 11/11/2025     |
+| 1   | - Conduct weekly team meeting <br> - Assign provisioning tasks and review previous week’s progress                        |          | 11/10/
+2025     |
+| 2   | - Continue Rafilm development <br> - Refine backend logic or improve API flows                                            |        ✅   | 11/11/2025     |
 | 3   | - Work on UI/UX enhancements or frontend optimizations for Rafilm <br> - Check for integration friction points            |          | 11/12/2025     |
 | 4   | - Begin drafting updated project proposal <br> - Review considerations from the earlier architecture document         |          | 11/13/2025     |
 | 5   | - Assess current solution architecture <br> - Identify gaps in scalability, cost, security, and operational readiness |          | 11/14/2025     |

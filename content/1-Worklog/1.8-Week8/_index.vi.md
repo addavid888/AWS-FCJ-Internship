@@ -21,7 +21,7 @@ pre: " <b> 1.8. </b> "
 | 1    | - Tiếp tục phát triển tích cực nền tảng Rafilm <br> - Triển khai các quy trình backend còn lại hoặc cải tiến UI/UX                                                                                   |          | 27/10/2025 |
 | 2    | - Chạy các bài kiểm tra thực hành có mục tiêu cho CLF-C02 <br> - Xem lại các câu hỏi trả lời sai trước đó để củng cố các lĩnh vực yếu                                                                |          | 28/10/2025 |
 | 3    | - Tiếp tục luyện thi mô phỏng <br> - Học các kiến thức cơ bản AWS chính: IAM, tối ưu hóa chi phí, gói hỗ trợ, thực hành tốt nhất về kiến trúc                                                        |          | 29/10/2025 |
-| 4    | - Tích hợp các thành phần dự án từ đầu đến cuối: <br> _ Lambda → DynamoDB <br> _ Quy trình Personalize <br> _ Tuyến đường đối thoại Bedrock <br> _ Luồng xác thực Cognito <br> - Kiểm tra quy mô nhỏ |          | 30/10/2025 |
+| 4    | - Tích hợp các thành phần dự án từ đầu đến cuối: <br> _ Lambda → DynamoDB <br> _ Quy trình Personalize <br> _ Tuyến đường đối thoại Bedrock <br> _ Luồng xác thực Cognito <br> - Kiểm tra quy mô nhỏ |      ✅     | 30/10/2025 |
 | 5    | **Ngày Thi Giữa Kỳ**                                                                                                                                                                                 |          | 31/10/2025 |
 | 6    | - Ổn định các nhiệm vụ dự án sau kỳ thi                                                                                                                                                              |          | 01/11/2025 |
 

@@ -22,8 +22,8 @@ pre: " <b> 1.7. </b> "
 | 2   | - Review key Cloud Practitioner topics: Cloud concepts, shared responsibility, IAM basics, support plans <br> - Begin short practice quizzes to gauge baseline level                       |          | 10/21/2025 |
 | 3   | - Take a full-length **CLF-C02 practice test** <br> - Analyze incorrect answers and identify knowledge gaps                                                                                |          | 10/22/2025 |
 | 4   | - Deepen study on weak areas identified from practice tests <br> - Review billing, cost optimization, governance tools, and AWS security fundamentals                                      |          | 10/23/2025 |
-| 5   | - Resume project work: refine architecture components based on earlier weeks <br> - Update Lambda functions, DynamoDB schema adjustments, or API Gateway flows as needed                   |          | 10/24/2025 |
-| 6   | - Implement or refine **core Rafilm features** referenced in the proposal, such as: <br> _ Logging & reviewing workflows <br> _ Assessing the architecture diagram with team members     |          | 10/25/2025 |
+| 5   | - Resume project work: refine architecture components based on earlier weeks <br> - Update Lambda functions, DynamoDB schema adjustments, or API Gateway flows as needed                   | ✅       | 10/24/2025 |
+| 6   | - Implement or refine **core Rafilm features** referenced in the proposal, such as: <br> _ Logging & reviewing workflows <br> _ Assessing the architecture diagram with team members       |          | 10/25/2025 |
 | 7   | - Conduct focused project tasks: <br> _ API correctness <br> _ Data flow from DynamoDB to Personalize <br> _ Authentication flow via Cognito <br> _ Frontend interactions via Amplify      |          | 10/26/2025 |
 
 ---

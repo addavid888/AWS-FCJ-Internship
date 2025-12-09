@@ -20,7 +20,7 @@ pre: " <b> 1.5. </b> "
 
 | Day | Task                                                                                                                                                                                                                   | On-site? | Date       |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
-| 1   | - Study the **Shared Responsibility Model** in depth <br> - Understand security boundaries: AWS security **of** the cloud vs your security **in** the cloud <br> - Review real-world consequences of misconfigurations |          | 10/06/2025 |
+| 1   | - Study the **Shared Responsibility Model** in depth <br> - Understand security boundaries: AWS security **of** the cloud vs your security **in** the cloud <br> - Review real-world consequences of misconfigurations | ✅       | 10/06/2025 |
 | 2   | - Learn core **IAM concepts**: Users, Groups, Roles, Policies <br> - Practice writing IAM policies using JSON <br> - Explore permission boundaries, least privilege, and policy evaluation logic                       |          | 10/07/2025 |
 | 3   | - Introduction to **Amazon Cognito** <br> - Understand User Pools vs Identity Pools <br> - Implement basic app authentication workflow (signup, login, tokens)                                                         |          | 10/08/2025 |
 | 4   | - Learn **AWS Organizations**: multi-account structure, OU design, SCPs <br> - Explore **AWS Identity Center** for centralized access and SSO                                                                          |          | 10/09/2025 |

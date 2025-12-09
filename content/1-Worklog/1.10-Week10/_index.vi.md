@@ -20,7 +20,7 @@ pre: " <b> 1.10. </b> "
 | Ngày | Nhiệm vụ                                                                                                                            | On-site? | Ngày       |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------- |
 | 1    | - Tổ chức họp nhóm hàng tuần <br> - Phân công nhiệm vụ cung cấp dịch vụ và xem xét tiến độ tuần trước                               |          | 10/11/2025 |
-| 2    | - Tiếp tục phát triển Rafilm <br> - Tinh chỉnh logic backend hoặc cải thiện luồng API                                               |          | 11/11/2025 |
+| 2    | - Tiếp tục phát triển Rafilm <br> - Tinh chỉnh logic backend hoặc cải thiện luồng API                                               | ✅       | 11/11/2025 |
 | 3    | - Làm việc trên cải tiến UI/UX hoặc tối ưu hóa frontend cho Rafilm <br> - Kiểm tra các điểm ma sát tích hợp                         |          | 12/11/2025 |
 | 4    | - Bắt đầu soạn thảo đề xuất dự án cập nhật <br> - Xem xét các cân nhắc từ tài liệu kiến trúc trước đó                               |          | 13/11/2025 |
 | 5    | - Đánh giá kiến trúc giải pháp hiện tại <br> - Xác định các khoảng trống về khả năng mở rộng, chi phí, bảo mật và sẵn sàng vận hành |          | 14/11/2025 |
