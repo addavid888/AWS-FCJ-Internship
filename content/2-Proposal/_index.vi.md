@@ -93,23 +93,20 @@ Rafilm sử dụng kiến trúc serverless mô-đun trên AWS nhằm đạt kh�
 
 ### 6. Ước tính ngân sách
 
-**Chi phí Dự kiến Hàng tháng (đủ điều kiện Free Tier của AWS):**
+**Chi phí ước tính hàng tháng:** $40.09 USD ($481.08 cho 12 tháng)
 
-_Sẽ cập nhật_
+Ước tính chi phí của dự án này được dự kiến trong link sau: [https://calculator.aws/#/estimate?id=dab7fb57dabfb76041cdba98ac2bac7ba9630046](https://calculator.aws/#/estimate?id=dab7fb57dabfb76041cdba98ac2bac7ba9630046)
 
-<!-- | Dịch vụ | Sử dụng | Chi phí hàng tháng |
-|----------|--------|--------------|
-| AWS Lambda | 100K requests | $0.00 |
-| API Gateway | 5K API calls | $0.05 |
-| DynamoDB | 25K reads/writes | $0.20 |
-| S3 | 1 GB storage | $0.02 |
-| Amplify Hosting | 500 MB | $0.35 |
-| Cognito | 50 users | $0.00 |
-| SQS | 10K messages | $0.01 |
-| Personalize | 1 model training + inference | $0.05 |
-| Bedrock | 500 chatbot requests | $0.05 | -->
+Chi phí ước tính hàng tháng là **$40.09 USD** được tính toán dựa trên các giả định sử dụng cụ thể sau đây từ AWS Pricing Calculator:
 
-<!-- **Tổng ước tính:** ≈ **$0.7/tháng** (≈ **$8.40/năm**)   -->
+- **Mức sử dụng tiêu chuẩn:** Giả định **10.000 yêu cầu mỗi tháng** cho cả **AWS Lambda** và **Amazon API Gateway**.
+- **Cơ sở người dùng:** Giả định tối đa **10.000 Người dùng Hoạt động Hàng tháng (MAU)** cho **Amazon Cognito**.
+- **Mức sử dụng AI/ML (Yếu tố chi phí chính):**
+    - **Amazon Bedrock** được ước tính hoạt động liên tục (24 giờ mỗi ngày) với trung bình **1 yêu cầu mỗi phút** và **100 token đầu vào/đầu ra cho mỗi yêu cầu**.
+    - **Amazon Personalize** bao gồm **1 GB dữ liệu được nhập** và **15 giờ huấn luyện mỗi tháng**.
+- **Chi phí bảo mật:** Giả định sử dụng **1 AWS WAF Web ACL** với 4 Rules và 3 Managed Rule Groups.
+- **Lưu trữ dữ liệu:** Giả định **0.5 GB** dữ liệu lưu trữ trong **Amazon DynamoDB**.
+
 
 ### 7. Đánh giá rủi ro
 
